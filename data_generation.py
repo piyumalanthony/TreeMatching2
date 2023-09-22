@@ -32,8 +32,15 @@ def run_alisim(path, min_num_taxa, max_num_taxa, min_seq_len, max_seq_len, gap, 
         for j in range(min_seq_len, max_seq_len + min_seq_len, min_seq_len):
             # if not (os.path.exists(f'{path}/simulated_data/{i}/{j}')):
             #     os.mkdir(f'{path}/simulated_data/{i}/{j}')
-            cmd_alisim_v2 = f'{IQTREE_PATH} --alisim {path}/simulated_data/{i}/{j} -m {model} -t {path}/simulated_data/{i}/{j}.nw -seed 1 --length {j}'
-            os.system(cmd_alisim_v2)
+            cmd_alisim = f'{IQTREE_PATH} --alisim {path}/simulated_data/{i}/{j} -m {model} -t {path}/simulated_data/{i}/{j}.nw -seed 1 --length {j}'
+            os.system(cmd_alisim)
+
+
+def run_alisim_aa(path, min_num_taxa, max_num_taxa, min_seq_len, max_seq_len, gap, model):
+    for i in range(min_num_taxa, max_num_taxa + gap, gap):
+        for j in range(min_seq_len, max_seq_len + min_seq_len, min_seq_len):
+            cmd_alisim = f'{IQTREE_PATH} --alisim {path}/simulated_data/{i}/{j} -m {model} -t {path}/simulated_data/{i}/{j}.nw -seed 1 --length {j}'
+            os.system(cmd_alisim)
 
 
 def run_iqtree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap):
@@ -66,8 +73,8 @@ def run_iqtree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, g
         pickle.dump({'time': time_global, 'memory': memory_global}, f)
 
 
-def generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap):
-    model_index, gamma_rate = 0, 0
+def generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, data_type):
+    model_index, gamma_rate, seq_data = 0, 0, 0
     for num_taxa in range(min_taxa, max_taxa + gap, gap):
         if not (os.path.exists(f'{file_path}/mcmctree_output/{num_taxa}')):
             os.mkdir(f'{file_path}/mcmctree_output/{num_taxa}')
@@ -91,13 +98,24 @@ def generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max
             elif model == 'HKY+G5{0.5}':
                 model_index = 4
                 gamma_rate = 0.5
+            elif model == 'WAG+G5{0.5}':
+                model_index = 0
+                gamma_rate = 0.5
+
+            if data_type == 'DNA':
+                seq_data = 0
+            elif data_type == 'Codon':
+                seq_data = 1
+            elif data_type == 'AA':
+                seq_data = 2
+
             mcmctree_file_str = [
                 "seed = -1\n"
                 f"seqfile = {file_path}/simulated_data/{num_taxa}/{seq_len}.phy\n",
                 f"treefile = {file_path}/simulated_data/{num_taxa}/{seq_len}_mcmc.treefile\n",
                 "outfile = out\n",
                 "ndata = 1\n",
-                "seqtype = 0\n",
+                f"seqtype = {seq_data}\n",
                 "usedata = 3\n",
                 "clock = 3\n",
                 "RootAge = <1.0\n",
@@ -121,10 +139,10 @@ def generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max
                 f.write("".join(mcmctree_file_str))
 
 
-def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap):
+def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, data_type):
     time_global = []
     memory_global = []
-    generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
+    generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, data_type)
     for num_taxa in range(min_taxa, max_taxa + gap, gap):
         time_local = []
         memory_local = []

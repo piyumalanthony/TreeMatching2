@@ -1,14 +1,14 @@
 import argparse
 import os
 
-from constants import IQTREE_PATH, MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN, TAXA_GAP
+from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN, TAXA_GAP
 from data_generation import simulate_tree_topology, run_alisim, run_iqtree, run_mcmctree
 from error_analysis import process_data_for_plots, process_rmse_data, rmse_box_plot_generation, calculate_correlation
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_type', help='Sequence data type', choices=['DNA', 'AA'])
 parser.add_argument('--model', help='Substitution model for simulations',
-                    choices=['JC', 'HKY', 'WAG', 'JC_Gamma', 'HKY_Gamma'])
+                    choices=['JC', 'HKY', 'WAG', 'JC_Gamma', 'HKY_Gamma', 'WAG_Gamma'])
 # parser.add_argument('--multiple_models', help='use all substitution model for simulations',
 #                     choices=[True, False])
 parser.add_argument('--file_path', help='file path to store experimental data')
@@ -84,10 +84,57 @@ if args.generate_data and args.data_type == 'DNA':
                min_seq_len=min_seq_len, max_seq_len=max_seq_len, gap=gap)
 
     run_mcmctree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa, min_seq_len=min_seq_len,
-                 max_seq_len=max_seq_len, gap=gap)
+                 max_seq_len=max_seq_len, gap=gap, data_type=args.data_type)
 
 if args.generate_data and args.data_type == 'AA':
-    pass
+    dir = f'{args.file_path}/AA'
+    dir_model = f'{args.file_path}/AA/{args.model}'
+    dir_iqtree_output = f'{args.file_path}/AA/{args.model}/iqtree_output'
+    dir_mcmctree_output = f'{args.file_path}/AA/{args.model}/mcmctree_output'
+    dir_pickle = f'{args.file_path}/AA/{args.model}/pickle'
+    dir_plots = f'{args.file_path}/AA/{args.model}/plots'
+    dir_simulated_data = f'{args.file_path}/AA/{args.model}/simulated_data'
+
+    if not (os.path.exists(dir)):
+        os.mkdir(dir)
+
+    if not (os.path.exists(dir_model)):
+        os.mkdir(dir_model)
+
+    if not (os.path.exists(dir_iqtree_output)):
+        os.mkdir(dir_iqtree_output)
+
+    if not (os.path.exists(dir_mcmctree_output)):
+        os.mkdir(dir_mcmctree_output)
+
+    if not (os.path.exists(dir_pickle)):
+        os.mkdir(dir_pickle)
+
+    if not (os.path.exists(dir_plots)):
+        os.mkdir(dir_plots)
+
+    if not (os.path.exists(dir_simulated_data)):
+        os.mkdir(dir_simulated_data)
+
+    simulate_tree_topology(min_taxa=min_taxa, max_taxa=max_taxa, gap=gap,
+                           file_str=dir_model)
+
+    model_str = args.model
+    if model_str == 'JC_Gamma':
+        s_model = 'JC+G5{0.5}'
+    elif model_str == 'HKY_Gamma':
+        s_model = 'HKY+G5{0.5}'
+    elif model_str == 'WAG_Gamma':
+        s_model = 'WAG+G5{0.5}'
+    else:
+        s_model = model_str
+    run_alisim(path=dir_model, min_num_taxa=min_taxa, max_num_taxa=max_taxa, min_seq_len=min_seq_len,
+               max_seq_len=max_seq_len, gap=gap, model=s_model)
+    run_iqtree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa,
+               min_seq_len=min_seq_len, max_seq_len=max_seq_len, gap=gap)
+
+    run_mcmctree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa, min_seq_len=min_seq_len,
+                 max_seq_len=max_seq_len, gap=gap, data_type=args.data_type)
 
 if args.err:
     model_str = args.model_list
@@ -95,11 +142,9 @@ if args.err:
     print(print(f'*********** Set of models to be analyzed:{model_list} ***********'))
 
     file_str_list = [f'{args.file_path}/{model}' for model in model_list]
-    for model, file_path in zip(model_list,file_str_list):
+    for model, file_path in zip(model_list, file_str_list):
         print(print(f'*********** Processing data for model:{model} *********** \n\n'))
         process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         process_rmse_data(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         rmse_box_plot_generation(file_path, model, min_taxa, max_taxa, gap)
         calculate_correlation(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
-
-
