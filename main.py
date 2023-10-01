@@ -1,9 +1,12 @@
 import argparse
 import os
 
-from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN, TAXA_GAP
+from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN, TAXA_GAP, NUM_REPLICATES, IQTREE_PREV_RELEASE_PATH, \
+    IQTREE_PATH
 from data_generation import simulate_tree_topology, run_alisim, run_iqtree, run_mcmctree
 from error_analysis import process_data_for_plots, process_rmse_data, rmse_box_plot_generation, calculate_correlation
+from iqtree_release_test import generate_tree_replicates_seq_len_fixed, generate_alignments_fixed_seq_len, \
+    run_iqtree_fixed_seq_len, run_iqtree_emperical
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_type', help='Sequence data type', choices=['DNA', 'AA'])
@@ -22,6 +25,17 @@ parser.add_argument('--gap', help='Gap of number of taxa')
 parser.add_argument('--err', help='Error analysis flag for comparison')
 parser.add_argument('--model_list', help='List of models for error analysis')
 
+# Params for performance testing
+parser.add_argument('--iqtree_test', help='flag for performance testing compared to previous version')
+parser.add_argument('--num_rep', help='Number of replicates for performance test')
+parser.add_argument('--seq_len', help='Sequence length for fixed seq_len test')
+
+# Empirical data test for IQ-TREE
+parser.add_argument('--empirical_test', help='flag for empirical testing compared to previous version')
+parser.add_argument('--num_emp_rep', help='Number of replicates for empirical test')
+parser.add_argument('--dataset', help='Name of the dataset')
+parser.add_argument('--dataset_path', help='Path to the dataset')
+
 args = parser.parse_args()
 
 min_taxa = MIN_TAXA
@@ -29,6 +43,7 @@ max_taxa = MAX_TAXA
 min_seq_len = MIN_SEQ_LEN
 max_seq_len = MAX_SEQ_LEN
 gap = TAXA_GAP
+num_replicates = NUM_REPLICATES
 
 if args.min_taxa is not None:
     min_taxa = int(args.min_taxa)
@@ -40,6 +55,8 @@ if args.max_seq_len is not None:
     max_seq_len = int(args.max_seq_len)
 if args.gap is not None:
     gap = int(args.gap)
+if args.num_rep is not None:
+    num_replicates = int(args.num_rep)
 
 # generate data for DNA data
 if args.generate_data and args.data_type == 'DNA':
@@ -139,14 +156,40 @@ if args.generate_data and args.data_type == 'AA':
 if args.err:
     model_str = args.model_list
     model_list = model_str.strip().split(",")
-    print(print(f'*********** Set of models to be analyzed:{model_list} ***********'))
+    print(f'*********** Set of models to be analyzed:{model_list} ***********')
 
     file_str_list = [f'{args.file_path}/{model}' for model in model_list]
     for model, file_path in zip(model_list, file_str_list):
-        print(print(f'*********** Processing data for model:{model} *********** \n\n'))
+        print(f'*********** Processing data for model:{model} *********** \n\n')
         process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         process_rmse_data(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         rmse_box_plot_generation(file_path, model, min_taxa, max_taxa, gap)
         calculate_correlation(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
+
+if args.iqtree_test:
+    dir_experiment = f'{args.file_path}'
+    seq_len = int(args.seq_len)
+    generate_tree_replicates_seq_len_fixed(num_replicates, min_taxa, max_taxa, gap, dir_experiment)
+    generate_alignments_fixed_seq_len(dir_experiment, num_replicates, seq_len, min_taxa, max_taxa, gap)
+    print(f'|| *********** Running IQ-TREE Release version  *********** ||')
+    run_iqtree_fixed_seq_len(dir_experiment, IQTREE_PREV_RELEASE_PATH, min_taxa, max_taxa, num_replicates, gap, "v1")
+    print(f'|| *********** Running IQ-TREE New version  *********** ||')
+    run_iqtree_fixed_seq_len(dir_experiment, IQTREE_PATH, min_taxa, max_taxa, num_replicates, gap, "v2")
+
+if args.empirical_test:
+    dir_experiment = f'{args.file_path}'
+    dataset_name = str(args.dataset)
+    data_path = f'{args.dataset_path}'
+    # print(f'|| *********** Running IQ-TREE Release version  *********** ||')
+    # run_iqtree_emperical(dir_experiment, IQTREE_PREV_RELEASE_PATH, dataset_name, data_path, 'v1')
+    # print(f'|| *********** Running IQ-TREE New version  *********** ||')
+    # run_iqtree_emperical(dir_experiment, IQTREE_PATH, dataset_name, data_path, 'v2')
+
+    dataset2_path = '/home/piyumal/PHD/IQTree_experiments/emperical_data/218.dna'
+    print(f'|| *********** Running IQ-TREE Release version  *********** ||')
+    run_iqtree_emperical(dir_experiment, IQTREE_PREV_RELEASE_PATH, 'dna_218_MF', dataset2_path, 'v1')
+    print(f'|| *********** Running IQ-TREE New version  *********** ||')
+    run_iqtree_emperical(dir_experiment, IQTREE_PATH, 'dna_218_MF', dataset2_path, 'v2')
+
 
 

@@ -15,7 +15,7 @@ def process_memory():
 
 
 def simulate_tree_topology(min_taxa, max_taxa, gap, file_str):
-    for i in range(min_taxa, max_taxa + min_taxa, gap):
+    for i in range(min_taxa, max_taxa + gap, gap):
         if not (os.path.exists(f'{file_str}/simulated_data/{i}')):
             os.mkdir(f'{file_str}/simulated_data/{i}')
         # os.system(f'mkdir {file_str}/simulated_data/{i}')
