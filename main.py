@@ -148,3 +148,5 @@ if args.err:
         process_rmse_data(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         rmse_box_plot_generation(file_path, model, min_taxa, max_taxa, gap)
         calculate_correlation(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
+
+    print("*********** Finished Comparison and Analysis ***********")
