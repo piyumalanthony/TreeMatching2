@@ -178,18 +178,20 @@ if args.iqtree_test:
 
 if args.empirical_test:
     dir_experiment = f'{args.file_path}'
-    dataset_name = str(args.dataset)
+    # dataset_name = str(args.dataset)
     data_path = f'{args.dataset_path}'
-    # print(f'|| *********** Running IQ-TREE Release version  *********** ||')
-    # run_iqtree_emperical(dir_experiment, IQTREE_PREV_RELEASE_PATH, dataset_name, data_path, 'v1')
-    # print(f'|| *********** Running IQ-TREE New version  *********** ||')
-    # run_iqtree_emperical(dir_experiment, IQTREE_PATH, dataset_name, data_path, 'v2')
+    dataset1_path = f'{data_path}/74.aa'
+    print(f'|| *********** Running IQ-TREE Release version  *********** ||')
+    run_iqtree_emperical(dir_experiment, IQTREE_PREV_RELEASE_PATH, 'aa_74_MF', dataset1_path, 'v1')
+    print(f'|| *********** Running IQ-TREE New version  *********** ||')
+    run_iqtree_emperical(dir_experiment, IQTREE_PATH, 'aa_74_MF', dataset1_path, 'v2')
 
-    dataset2_path = '/home/piyumal/PHD/IQTree_experiments/emperical_data/218.dna'
+    dataset2_path = f'{data_path}/218.dna'
     print(f'|| *********** Running IQ-TREE Release version  *********** ||')
     run_iqtree_emperical(dir_experiment, IQTREE_PREV_RELEASE_PATH, 'dna_218_MF', dataset2_path, 'v1')
     print(f'|| *********** Running IQ-TREE New version  *********** ||')
     run_iqtree_emperical(dir_experiment, IQTREE_PATH, 'dna_218_MF', dataset2_path, 'v2')
+    print(f'|| *********** Completed the empirical experiment  *********** ||')
 
 
 

@@ -90,7 +90,7 @@ def run_iqtree_emperical(file_path, iqtree_path, dataset_name, data_path, versio
     if not (os.path.exists(f'{file_path}/iqtree_output_{version}_{dataset_name}')):
         os.mkdir(f'{file_path}/iqtree_output_{version}_{dataset_name}')
     print(f'*********** Running IQ-TREE for {data_path} ***********')
-    cmd_iqtree = f'{iqtree_path} -s {data_path} --redo  -nt AUTO -m MF -seed 1 --prefix {file_path}/iqtree_output_{version}_{dataset_name}/output'
+    cmd_iqtree = f'{iqtree_path} -s {data_path} --redo  -nt 1 -seed 1 --prefix {file_path}/iqtree_output_{version}_{dataset_name}/output'
     mem_before = process_memory()
     start = time.time()
     os.system(cmd_iqtree)
