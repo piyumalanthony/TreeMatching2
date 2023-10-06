@@ -39,7 +39,7 @@ def run_alisim(path, min_num_taxa, max_num_taxa, min_seq_len, max_seq_len, gap, 
 def run_alisim_aa(path, min_num_taxa, max_num_taxa, min_seq_len, max_seq_len, gap, model):
     for i in range(min_num_taxa, max_num_taxa + gap, gap):
         for j in range(min_seq_len, max_seq_len + min_seq_len, min_seq_len):
-            cmd_alisim = f'{IQTREE_PATH} --alisim {path}/simulated_data/{i}/{j} -m {model} -t {path}/simulated_data/{i}/{j}.nw -seed 1 --length {j}'
+            cmd_alisim = f'{IQTREE_PATH} --alisim {path}/simulated_data/{i}/{j} -m {model} --seqtype AA -t {path}/simulated_data/{i}/{j}.nw -seed 1 --length {j}'
             os.system(cmd_alisim)
 
 

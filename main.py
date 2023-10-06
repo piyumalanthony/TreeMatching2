@@ -3,7 +3,7 @@ import os
 
 from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN, TAXA_GAP, NUM_REPLICATES, IQTREE_PREV_RELEASE_PATH, \
     IQTREE_PATH
-from data_generation import simulate_tree_topology, run_alisim, run_iqtree, run_mcmctree
+from data_generation import simulate_tree_topology, run_alisim, run_iqtree, run_mcmctree, run_alisim_aa
 from error_analysis import process_data_for_plots, process_rmse_data, rmse_box_plot_generation, calculate_correlation
 from iqtree_release_test import generate_tree_replicates_seq_len_fixed, generate_alignments_fixed_seq_len, \
     run_iqtree_fixed_seq_len, run_iqtree_emperical
@@ -11,7 +11,7 @@ from iqtree_release_test import generate_tree_replicates_seq_len_fixed, generate
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_type', help='Sequence data type', choices=['DNA', 'AA'])
 parser.add_argument('--model', help='Substitution model for simulations',
-                    choices=['JC', 'HKY', 'WAG', 'JC_Gamma', 'HKY_Gamma', 'WAG_Gamma'])
+                    choices=['JC', 'HKY', 'WAG', 'JC_Gamma', 'HKY_Gamma', 'WAG_Gamma', 'Poisson'])
 # parser.add_argument('--multiple_models', help='use all substitution model for simulations',
 #                     choices=[True, False])
 parser.add_argument('--file_path', help='file path to store experimental data')
@@ -145,7 +145,7 @@ if args.generate_data and args.data_type == 'AA':
         s_model = 'WAG+G5{0.5}'
     else:
         s_model = model_str
-    run_alisim(path=dir_model, min_num_taxa=min_taxa, max_num_taxa=max_taxa, min_seq_len=min_seq_len,
+    run_alisim_aa(path=dir_model, min_num_taxa=min_taxa, max_num_taxa=max_taxa, min_seq_len=min_seq_len,
                max_seq_len=max_seq_len, gap=gap, model=s_model)
     run_iqtree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa,
                min_seq_len=min_seq_len, max_seq_len=max_seq_len, gap=gap)
