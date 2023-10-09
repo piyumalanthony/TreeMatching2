@@ -9,7 +9,10 @@ from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN
 from tree_comp import generate_br_plots, generate_hessian_plots, generate_mle_plots, load_rmse_data
 
 
-def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap):
+def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap, model):
+    mcmctree_output_file = 'out.BV'
+    if model == 'WAG_Gamma':
+        mcmctree_output_file = 'rst2'
     if not (os.path.exists(f'{file_path}/plots/br_plots')):
         os.mkdir(f'{file_path}/plots/br_plots')
 
@@ -25,7 +28,7 @@ def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap)
             tree_string = ""
             branch_length_vector = ""
             gradient_vector = ""
-            with open(f'{file_path}/mcmctree_output/{num_taxa_iter}/{seq_len_iter}/out.BV') as f:
+            with open(f'{file_path}/mcmctree_output/{num_taxa_iter}/{seq_len_iter}/{mcmctree_output_file}') as f:
                 for k, line in enumerate(f.readlines()):
                     if k == 3:
                         tree_string = line

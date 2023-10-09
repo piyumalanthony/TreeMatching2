@@ -146,22 +146,25 @@ if args.generate_data and args.data_type == 'AA':
     else:
         s_model = model_str
     run_alisim_aa(path=dir_model, min_num_taxa=min_taxa, max_num_taxa=max_taxa, min_seq_len=min_seq_len,
-               max_seq_len=max_seq_len, gap=gap, model=s_model)
+                  max_seq_len=max_seq_len, gap=gap, model=s_model)
     run_iqtree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa,
                min_seq_len=min_seq_len, max_seq_len=max_seq_len, gap=gap)
 
     run_mcmctree(file_path=dir_model, model=s_model, min_taxa=min_taxa, max_taxa=max_taxa, min_seq_len=min_seq_len,
                  max_seq_len=max_seq_len, gap=gap, data_type=args.data_type)
 
+# support sets of models for error analysis.
+# if you have one model just use it in model_list params or mention all models seperated by commas.
 if args.err:
     model_str = args.model_list
     model_list = model_str.strip().split(",")
     print(f'*********** Set of models to be analyzed:{model_list} ***********')
 
-    file_str_list = [f'{args.file_path}/{model}' for model in model_list]
+    file_str_list = [f'{args.file_path}/{model}' for model in model_list] if args.data_type == 'DNA' else [
+        f'{args.file_path}/AA/{model}' for model in model_list]
     for model, file_path in zip(model_list, file_str_list):
         print(f'*********** Processing data for model:{model} *********** \n\n')
-        process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
+        process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, model)
         process_rmse_data(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         rmse_box_plot_generation(file_path, model, min_taxa, max_taxa, gap)
         calculate_correlation(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
@@ -192,6 +195,3 @@ if args.empirical_test:
     print(f'|| *********** Running IQ-TREE New version  *********** ||')
     run_iqtree_emperical(dir_experiment, IQTREE_PATH, 'dna_218_MF', dataset2_path, 'v2')
     print(f'|| *********** Completed the empirical experiment  *********** ||')
-
-
-

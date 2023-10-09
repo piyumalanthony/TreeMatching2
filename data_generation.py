@@ -1,9 +1,10 @@
 import os
-import time
-import ete3
 import pickle
+import time
+
+import ete3
 import psutil
-import numpy as np
+import shutil
 
 from constants import IQTREE_PATH
 
@@ -139,9 +140,34 @@ def generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max
                 f.write("".join(mcmctree_file_str))
 
 
+def generate_ctl_codeml(file_path, num_taxa, seq_len):
+    os.remove(f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}/tmp0001.ctl')
+    os.remove(f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}/out.BV')
+    codeml_file_str = [
+        'seqfile = tmp0001.txt\n',
+        'treefile = tmp0001.trees\n',
+        'outfile = tmp0001.out\n',
+        'noisy = 3\n',
+        'seqtype = 2\n',
+        'model = 2\n'
+        f'aaRatefile = {file_path}/wag.dat\n'
+        'fix_alpha = 0\n',
+        'alpha = .5\n',
+        'ncatG = 5\n',
+        'Small_Diff = 0.1e-6\n',
+        'getSE = 2\n',
+        'method = 1'
+    ]
+
+    with open(f"{file_path}/mcmctree_output/{num_taxa}/{seq_len}/tmp0001.ctl", 'w+') as f:
+        f.write("".join(codeml_file_str))
+
+
 def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, data_type):
     time_global = []
     memory_global = []
+    if model == 'WAG+G5{0.5}':
+        shutil.copy('./dat/wag.dat', file_path)
     generate_ctl_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, data_type)
     for num_taxa in range(min_taxa, max_taxa + gap, gap):
         time_local = []
@@ -153,6 +179,10 @@ def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len,
             mem_before = process_memory()
             start = time.time()
             os.system(cmd_mcmctree)
+            if model == 'WAG+G5{0.5}':
+                generate_ctl_codeml(file_path, num_taxa, seq_len)
+                cmd_codeml = f'codeml {file_path}/mcmctree_output/{num_taxa}/{seq_len}/tmp0001.ctl'
+                os.system(cmd_codeml)
             end = time.time()
             mem_after = process_memory()
             time_local.append(end - start)
@@ -163,3 +193,4 @@ def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len,
             pickle.dump({'time': time_local, 'memory': memory_local}, f)
     with open(f'{file_path}/time_pickle/mcmctree_{model}_all.pkl', 'wb') as f:
         pickle.dump({'time': time_global, 'memory': memory_global}, f)
+
