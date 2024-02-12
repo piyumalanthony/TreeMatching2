@@ -6,10 +6,11 @@ import pandas as pd
 import numpy as np
 
 from constants import MIN_TAXA, MAX_TAXA, MIN_SEQ_LEN, MAX_SEQ_LEN
-from tree_comp import generate_br_plots, generate_hessian_plots, generate_mle_plots, load_rmse_data
+from tree_comp import generate_br_plots, generate_hessian_plots, generate_mle_plots, load_rmse_data, \
+    generate_br_plots_compatible_tree, generate_hessian_plots_compatible_tree, generate_mle_plots_compatible_tree
 
 
-def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap, model):
+def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap, model, compatible_tree):
     mcmctree_output_file = 'out.BV'
     if model == 'WAG_Gamma':
         mcmctree_output_file = 'rst2'
@@ -49,12 +50,20 @@ def process_data_for_plots(file_path, min_taxa, max_taxa, min_seq, max_seq, gap,
                 with open(f'{file_path}/mcmctree_output/{num_taxa_iter}/{seq_len_iter}/gradient.txt', "w") as f4:
                     f4.write(gradient_vector)
             print(f'-------------- {num_taxa_iter} NUM TAXA, {seq_len_iter} SEQ LENGTH ----------------------------')
-            generate_br_plots(file_path, num_taxa_iter, seq_len_iter)
-            print("                Completed Branch plot generation")
-            generate_hessian_plots(file_path, num_taxa_iter, seq_len_iter)
-            print("                Completed Hessian plot generation")
-            generate_mle_plots(file_path, num_taxa_iter, seq_len_iter)
-            print("                Completed MLE plot generation\n\n")
+            if compatible_tree:
+                generate_br_plots_compatible_tree(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed Branch plot generation")
+                generate_hessian_plots_compatible_tree(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed Hessian plot generation")
+                generate_mle_plots_compatible_tree(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed MLE plot generation\n\n")
+            else:
+                generate_br_plots(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed Branch plot generation")
+                generate_hessian_plots(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed Hessian plot generation")
+                generate_mle_plots(file_path, num_taxa_iter, seq_len_iter)
+                print("                Completed MLE plot generation\n\n")
 
 
 def process_rmse_data(file_path, min_taxa, max_taxa, min_seq, max_seq, gap):

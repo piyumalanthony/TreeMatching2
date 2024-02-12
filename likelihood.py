@@ -22,8 +22,12 @@ def calculate_approx_likelihood(br_lengths, gradients, hessians, iqtree_idx, rep
 
         iqtree_noise = []
         noise_b = list(noise)
-        for index in iqtree_idx:
-            iqtree_noise.append(noise_b[index])
+        # since for compatible trees, we don't reorder the values.
+        if len(iqtree_idx) != 0:
+            for index in iqtree_idx:
+                iqtree_noise.append(noise_b[index])
+        else:
+            iqtree_noise = noise
         iqtree_noise = np.array(iqtree_noise)
         iq_br_lengths = iqtree_br + iqtree_noise
         iqtree_mle = np.dot(iqtree_gradients, iq_br_lengths) + np.dot(iq_br_lengths,

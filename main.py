@@ -24,6 +24,7 @@ parser.add_argument('--max_seq_len', help='Maximum sequence length')
 parser.add_argument('--gap', help='Gap of number of taxa')
 parser.add_argument('--err', help='Error analysis flag for comparison')
 parser.add_argument('--model_list', help='List of models for error analysis')
+parser.add_argument('--compatible_tree', help='Both tree traversals are same for IQ-TREE and MCMCTree')
 
 # Params for performance testing
 parser.add_argument('--iqtree_test', help='flag for performance testing compared to previous version')
@@ -44,6 +45,7 @@ min_seq_len = MIN_SEQ_LEN
 max_seq_len = MAX_SEQ_LEN
 gap = TAXA_GAP
 num_replicates = NUM_REPLICATES
+compatible_tree = False
 
 if args.min_taxa is not None:
     min_taxa = int(args.min_taxa)
@@ -57,6 +59,8 @@ if args.gap is not None:
     gap = int(args.gap)
 if args.num_rep is not None:
     num_replicates = int(args.num_rep)
+if args.compatible_tree is not None:
+    compatible_tree = bool(args.compatible_tree)
 
 # generate data for DNA data
 if args.generate_data and args.data_type == 'DNA':
@@ -164,7 +168,7 @@ if args.err:
         f'{args.file_path}/AA/{model}' for model in model_list]
     for model, file_path in zip(model_list, file_str_list):
         print(f'*********** Processing data for model:{model} *********** \n\n')
-        process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, model)
+        process_data_for_plots(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap, model, compatible_tree)
         process_rmse_data(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)
         rmse_box_plot_generation(file_path, model, min_taxa, max_taxa, gap)
         calculate_correlation(file_path, min_taxa, max_taxa, min_seq_len, max_seq_len, gap)

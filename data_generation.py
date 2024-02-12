@@ -58,7 +58,7 @@ def run_iqtree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len, g
             if not (os.path.exists(f'{file_path}/iqtree_output/{num_taxa}/{seq_len}')):
                 os.mkdir(f'{file_path}/iqtree_output/{num_taxa}/{seq_len}')
             print(f'*********** Running IQ-TREE for MODEL:{model}, NUM TAXA:{num_taxa}, SEQ LEN:{seq_len} ***********')
-            cmd_iqtree = f'{IQTREE_PATH} -s {file_path}/simulated_data/{num_taxa}/{seq_len}.phy --redo  -nt 1 -m {model} --dating mcmctree -seed 1 -te {file_path}/simulated_data/{num_taxa}/{seq_len}.nw --prefix {file_path}/iqtree_output/{num_taxa}/{seq_len}/output'
+            cmd_iqtree = f'/usr/bin/time -v -o {file_path}/iqtree_output/{num_taxa}/{seq_len}/time.txt {IQTREE_PATH} -s {file_path}/simulated_data/{num_taxa}/{seq_len}.phy --redo  -nt 1 -m {model} --dating mcmctree -seed 1 -te {file_path}/simulated_data/{num_taxa}/{seq_len}.nw --prefix {file_path}/iqtree_output/{num_taxa}/{seq_len}/output -keep-ident'
             mem_before = process_memory()
             start = time.time()
             os.system(cmd_iqtree)
@@ -175,13 +175,13 @@ def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len,
         for seq_len in range(min_seq_len, max_seq_len + min_seq_len, min_seq_len):
             print(f'*********** Running BaseML for MODEL:{model}, NUM TAXA:{num_taxa}, SEQ LEN:{seq_len} ***********')
             os.chdir(f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}')
-            cmd_mcmctree = f'mcmctree {file_path}/simulated_data/{num_taxa}/{seq_len}_mcmctree.ctl'
+            cmd_mcmctree = f'/usr/bin/time -v -o {file_path}/mcmctree_output/{num_taxa}/{seq_len}/time.txt mcmctree {file_path}/simulated_data/{num_taxa}/{seq_len}_mcmctree.ctl'
             mem_before = process_memory()
             start = time.time()
             os.system(cmd_mcmctree)
             if model == 'WAG+G5{0.5}':
                 generate_ctl_codeml(file_path, num_taxa, seq_len)
-                cmd_codeml = f'codeml {file_path}/mcmctree_output/{num_taxa}/{seq_len}/tmp0001.ctl'
+                cmd_codeml = f'/usr/bin/time -v -o {file_path}/mcmctree_output/{num_taxa}/{seq_len}/time.txt codeml {file_path}/mcmctree_output/{num_taxa}/{seq_len}/tmp0001.ctl'
                 os.system(cmd_codeml)
             end = time.time()
             mem_after = process_memory()
@@ -193,4 +193,3 @@ def run_mcmctree(file_path, model, min_taxa, max_taxa, min_seq_len, max_seq_len,
             pickle.dump({'time': time_local, 'memory': memory_local}, f)
     with open(f'{file_path}/time_pickle/mcmctree_{model}_all.pkl', 'wb') as f:
         pickle.dump({'time': time_global, 'memory': memory_global}, f)
-

@@ -252,6 +252,189 @@ def generate_mle_plots(file_path, num_taxa, seq_len):
     plt.plot([min(iq_tree_mle), max(iq_tree_mle)],
              [min(iq_tree_mle), max(iq_tree_mle)], 'r--', label='x=y')
     plt.title(f'IQTree vs Baseml likelihood values for {num_taxa} taxa and {seq_len} seq length')
+    plt.xlabel('IQ-TREE approximate likelihood')
+    plt.ylabel('Baseml approximate likelihood')
+    plt.savefig(f'{file_path}/plots/likelihood_plots/likelihood_{num_taxa}_{seq_len}.png')
+    plt.clf()
+
+    plt.plot(iq_tree_mle_delta, baseml_mle_delta, 'bo')
+    plt.plot([min(iq_tree_mle_delta), max(iq_tree_mle_delta)],
+             [min(iq_tree_mle_delta), max(iq_tree_mle_delta)], 'r--', label='x=y')
+    plt.title(
+        f'IQTree vs Baseml approximate likelihood value for 100 replicates')
+    plt.xlabel('IQ-TREE approximate likelihood')
+    plt.ylabel('Baseml approximate likelihood')
+    plt.savefig(f'{file_path}/plots/likelihood_plots/likelihood_random_{num_taxa}_{seq_len}.png')
+    plt.clf()
+
+
+def generate_br_plots_compatible_tree(file_path, num_taxa, seq_len):
+    iqtree_br = f'{file_path}/iqtree_output/{num_taxa}/{seq_len}/output_blengths.gh'
+    mcmctree_br = f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}/brLengths.txt'
+    with open(iqtree_br) as f:
+        data = f.readline()
+        iqtree_blengths = data.strip().split()
+        iqtree_blengths = [float(i) for i in iqtree_blengths]
+
+    with open(mcmctree_br) as f:
+        data = f.readline()
+        mcmctree_blengths = data.strip().split()
+        mcmctree_blengths = [float(i) for i in mcmctree_blengths]
+
+    iqtree_blengths_np = np.array(iqtree_blengths)
+    mcmctree_blengths_np = np.array(mcmctree_blengths)
+
+    blengths_diff = iqtree_blengths_np - mcmctree_blengths_np
+    pickle_data = {"iqtree_idx": [],
+                   "iqtree_node_traversal": [],
+                   "mcmctree_node_traversal": [],  # initial mode traversal for MCMC-Tree
+                   "iqtree_diff": [],
+                   "mcmctree_diff": [],
+                   "blengths_diff": blengths_diff,
+                   "iqtree_blengths": iqtree_blengths_np,
+                   "mcmctree_blengths": mcmctree_blengths_np,  # reordered branch lengths
+                   "iqtree_blengths_init": iqtree_blengths,
+                   "mcmctree_blengths_init": mcmctree_blengths,
+
+                   }
+
+    with open(f'{file_path}/pickle/br_idx_mapping_{num_taxa}_{seq_len}.pkl', 'wb') as f:
+        pickle.dump(pickle_data, f)
+
+    plt.plot(iqtree_blengths_np, mcmctree_blengths_np, 'bo', )
+    plt.plot([min(iqtree_blengths_np), max(iqtree_blengths_np)], [min(iqtree_blengths_np), max(iqtree_blengths_np)],
+             'r--', label='x=y')
+    plt.title(f'IQTree vs Baseml branch lengths for {num_taxa} taxa and {seq_len} seq length')
+    plt.xlabel('IQtree branch lengths')
+    plt.ylabel('Baseml branch lengths')
+    plt.savefig(f'{file_path}/plots/br_plots/br_lengths_{num_taxa}_{seq_len}.png')
+    plt.clf()
+
+
+def generate_hessian_plots_compatible_tree(file_path, num_taxa, seq_len):
+    # with open(f'{file_path}/pickle/br_idx_mapping_{num_taxa}_{seq_len}.pkl', 'rb') as f:
+    #     pickle_data = pickle.load(f)
+    # index_list = pickle_data["iqtree_idx"]
+
+    iqtree_gradients = f'{file_path}/iqtree_output/{num_taxa}/{seq_len}/output_gradient.gh'
+    baseml_gradients = f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}/gradient.txt'
+
+    with open(iqtree_gradients) as f:
+        data = f.readline()
+        iqtree_gradient_vals = data.strip().split()
+        iqtree_gradient_vals = [float(i) for i in iqtree_gradient_vals]
+
+    with open(baseml_gradients) as f:
+        data = f.readline()
+        baseml_gradient_vals = data.strip().split()
+        baseml_gradient_vals = [float(i) for i in baseml_gradient_vals]
+
+    gradients = {"iqtree_gradients": iqtree_gradient_vals, "baseml_gradients": baseml_gradient_vals}
+
+    with open(f'{file_path}/pickle/gradient_data_{num_taxa}_{seq_len}.pkl', 'wb') as f:
+        pickle.dump(gradients, f)
+
+    iqtree_hessian = f'{file_path}/iqtree_output/{num_taxa}/{seq_len}/output_hessian.gh'
+    baseml_hessian = f'{file_path}/mcmctree_output/{num_taxa}/{seq_len}/hessian.txt'
+
+    iqtree_hessian_values = []
+    iqtree_h = open(iqtree_hessian, 'r')
+    lines_iqtree = iqtree_h.readlines()
+    iqtree_h.close()
+
+    for line in lines_iqtree:
+        values = line.strip().split()
+        values = [float(i) for i in values]
+        iqtree_hessian_values.append(values)
+
+    baseml_hessian_values = []
+    baseml_h = open(baseml_hessian, 'r')
+    lines_baseml = baseml_h.readlines()
+    baseml_h.close()
+
+    for line in lines_baseml:
+        values = line.strip().split()
+        values = [float(i) for i in values]
+        baseml_hessian_values.append(values)
+
+
+    iqtree_hessian_diagonal = [element[idx] for idx, element in enumerate(iqtree_hessian_values)]
+    baseml_hessian_diagonal = [element[idx] for idx, element in enumerate(baseml_hessian_values)]
+
+    iqtree_hessian_off_diagonal = []
+    for u, v in enumerate(iqtree_hessian_values):
+        for k, l in enumerate(v):
+            if k != u:
+                iqtree_hessian_off_diagonal.append(l)
+
+    baseml_hessian_off_diagonal = []
+    for u, v in enumerate(baseml_hessian_values):
+        for k, l in enumerate(v):
+            if k != u:
+                baseml_hessian_off_diagonal.append(l)
+
+    hessians = {"iqtree_hessian": iqtree_hessian_values,
+                "baseml_hessian": baseml_hessian_values,
+                "iqtree_hessian_diagonal": iqtree_hessian_diagonal,
+                "baseml_hessian_diagonal": baseml_hessian_diagonal,
+                "iqtree_hessian_off_diagonal": iqtree_hessian_off_diagonal,
+                "baseml_hessian_off_diagonal": baseml_hessian_off_diagonal}
+
+    with open(f'{file_path}/pickle/hessian_data_{num_taxa}_{seq_len}.pkl', 'wb') as f:
+        pickle.dump(hessians, f)
+
+    plt.plot(iqtree_hessian_diagonal, baseml_hessian_diagonal, 'bo')
+    plt.plot([min(iqtree_hessian_diagonal), max(iqtree_hessian_diagonal)],
+             [min(iqtree_hessian_diagonal), max(iqtree_hessian_diagonal)], 'r--', label='x=y')
+    plt.title(f'IQTree vs Baseml hessian diagonal values for {num_taxa} taxa and {seq_len} seq length')
+    plt.xlabel('IQtree hessian')
+    plt.ylabel('Baseml hessian')
+    plt.savefig(f'{file_path}/plots/hessian_plots/hessian_diagonal_{num_taxa}_{seq_len}.png')
+    plt.clf()
+
+    plt.plot(iqtree_hessian_off_diagonal, baseml_hessian_off_diagonal, 'bo')
+    plt.plot([min(iqtree_hessian_off_diagonal), max(iqtree_hessian_off_diagonal)],
+             [min(iqtree_hessian_off_diagonal), max(iqtree_hessian_off_diagonal)], 'r--', label='x=y')
+    plt.title(f'IQTree vs Baseml hessian off diagonal values for {num_taxa} taxa and {seq_len} seq length')
+    plt.xlabel('IQtree hessian')
+    plt.ylabel('Baseml hessian')
+    plt.savefig(f'{file_path}/plots/hessian_plots/hessian_off_diagonal_{num_taxa}_{seq_len}.png')
+
+
+def generate_mle_plots_compatible_tree(file_path, num_taxa, seq_len):
+    with open(f'{file_path}/pickle/br_idx_mapping_{num_taxa}_{seq_len}.pkl', 'rb') as f:
+        pickle_data_br = pickle.load(f)
+    iqtree_br = pickle_data_br["iqtree_blengths_init"]
+    baseml_br = pickle_data_br["mcmctree_blengths_init"]
+    iqtree_idx = pickle_data_br["iqtree_idx"]
+
+    with open(f'{file_path}/pickle/gradient_data_{num_taxa}_{seq_len}.pkl', 'rb') as f:
+        pickle_data_gr = pickle.load(f)
+    iqtree_gradients = pickle_data_gr["iqtree_gradients"]
+    baseml_gradients = pickle_data_gr["baseml_gradients"]
+
+    with open(f'{file_path}/pickle/hessian_data_{num_taxa}_{seq_len}.pkl', 'rb') as f:
+        pickle_data_v3 = pickle.load(f)
+    iqtree_hessian = pickle_data_v3["iqtree_hessian"]
+    baseml_hessian = pickle_data_v3["baseml_hessian"]
+
+    iq_tree_mle, baseml_mle, iq_tree_mle_delta, baseml_mle_delta = calculate_approx_likelihood([iqtree_br, baseml_br],
+                                                                                               [iqtree_gradients,
+                                                                                                baseml_gradients],
+                                                                                               [iqtree_hessian,
+                                                                                                baseml_hessian],
+                                                                                               iqtree_idx)
+    mle_data = {
+        "iqtree_mle": iq_tree_mle,
+        "baseml_mle": baseml_mle
+    }
+    with open(f'{file_path}/pickle/likelihood_data_{num_taxa}_{seq_len}.pkl', 'wb') as f:
+        pickle.dump(mle_data, f)
+
+    plt.plot(iq_tree_mle, baseml_mle, 'bo')
+    plt.plot([min(iq_tree_mle), max(iq_tree_mle)],
+             [min(iq_tree_mle), max(iq_tree_mle)], 'r--', label='x=y')
+    plt.title(f'IQTree vs Baseml likelihood values for {num_taxa} taxa and {seq_len} seq length')
     plt.xlabel('IQtree likelihood')
     plt.ylabel('Baseml likelihood')
     plt.savefig(f'{file_path}/plots/likelihood_plots/likelihood_{num_taxa}_{seq_len}.png')
@@ -261,9 +444,9 @@ def generate_mle_plots(file_path, num_taxa, seq_len):
     plt.plot([min(iq_tree_mle_delta), max(iq_tree_mle_delta)],
              [min(iq_tree_mle_delta), max(iq_tree_mle_delta)], 'r--', label='x=y')
     plt.title(
-        f'IQTree vs Baseml likelihood value for random branch lengths for {num_taxa} taxa and {seq_len} seq length')
-    plt.xlabel('IQtree likelihood')
-    plt.ylabel('Baseml likelihood')
+        f'IQ-TREE vs Baseml Approximate Log Likelihood values for 100 replicates')
+    plt.xlabel('IQ-TREE Approximate Log likelihood')
+    plt.ylabel('Baseml Approximate Log likelihood')
     plt.savefig(f'{file_path}/plots/likelihood_plots/likelihood_random_{num_taxa}_{seq_len}.png')
     plt.clf()
 
