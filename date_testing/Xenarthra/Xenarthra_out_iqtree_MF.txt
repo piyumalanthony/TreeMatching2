@@ -1,0 +1,586 @@
+MCMCTREE (paml version 4.10.7, June 2023) /media/piyumal/LaCie/PC/PHD/TimeTree/Hessian_Reversible_Models/Mammal_dating/Xenarthra/Xenarthra_iqtree_MF/Xenarthra_5parts_iqtree.nex.dummyAln.txt
+
+
+*** Locus 1 ***
+     32      1
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Printing out site pattern counts
+
+
+        32          1  P
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Frequencies..
+                                    T      C      A      G
+cabassous_chacoensis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_unicinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_torquatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_vellerosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_didactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaedyus_pichiy                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+calyptophractus_retusus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_novemcinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_sabanicola             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_villosus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_hybridus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_tetradactyla          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_kappleri               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_variegatus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_tatouay              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlamyphorus_truncatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+euphractus_sexcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_hoffmanni            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_matacus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cyclopes_didactylus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_pygmaeus              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_centralis            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+priodontes_maximus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_pilosus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_mexicana              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+myrmecophaga_tridactyla        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_yepesi                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_tricinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_septemcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 2 ***
+     32      1
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Printing out site pattern counts
+
+
+        32          1  P
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Frequencies..
+                                    T      C      A      G
+cabassous_chacoensis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_unicinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_torquatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_vellerosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_didactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaedyus_pichiy                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+calyptophractus_retusus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_novemcinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_sabanicola             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_villosus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_hybridus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_tetradactyla          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_kappleri               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_variegatus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_tatouay              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlamyphorus_truncatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+euphractus_sexcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_hoffmanni            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_matacus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cyclopes_didactylus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_pygmaeus              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_centralis            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+priodontes_maximus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_pilosus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_mexicana              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+myrmecophaga_tridactyla        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_yepesi                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_tricinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_septemcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 3 ***
+     33      1
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Printing out site pattern counts
+
+
+        33          1  P
+
+cabassous_chacoensis            A
+cabassous_unicinctus            A
+bradypus_torquatus              A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+dasypus_sabanicola              A
+chaetophractus_villosus         A
+dasypus_hybridus                A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+bradypus_variegatus             A
+cabassous_tatouay               A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+bradypus_pygmaeus               A
+cabassous_centralis             A
+priodontes_maximus              A
+dasypus_pilosus                 A
+tamandua_mexicana               A
+myrmecophaga_tridactyla         A
+dasypus_yepesi                  A
+tolypeutes_tricinctus           A
+dasypus_septemcinctus           A
+
+
+
+Frequencies..
+                                    T      C      A      G
+cabassous_chacoensis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_unicinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_torquatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_tridactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_vellerosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_didactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaedyus_pichiy                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+calyptophractus_retusus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_novemcinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_sabanicola             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_villosus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_hybridus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_tetradactyla          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_kappleri               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_variegatus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_tatouay              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlamyphorus_truncatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+euphractus_sexcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_hoffmanni            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_matacus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cyclopes_didactylus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_pygmaeus              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cabassous_centralis            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+priodontes_maximus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_pilosus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_mexicana              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+myrmecophaga_tridactyla        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_yepesi                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_tricinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_septemcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 4 ***
+     20      1
+
+cabassous_unicinctus            A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+chaetophractus_villosus         A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+priodontes_maximus              A
+myrmecophaga_tridactyla         A
+
+
+
+Printing out site pattern counts
+
+
+        20          1  P
+
+cabassous_unicinctus            A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+chaetophractus_villosus         A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+priodontes_maximus              A
+myrmecophaga_tridactyla         A
+
+
+
+Frequencies..
+                                    T      C      A      G
+cabassous_unicinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_tridactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_vellerosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_didactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaedyus_pichiy                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+calyptophractus_retusus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_novemcinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_villosus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_tetradactyla          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_kappleri               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlamyphorus_truncatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+euphractus_sexcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_hoffmanni            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_matacus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cyclopes_didactylus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+priodontes_maximus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+myrmecophaga_tridactyla        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = -0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 5 ***
+     20      1
+
+cabassous_unicinctus            A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+chaetophractus_villosus         A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+priodontes_maximus              A
+myrmecophaga_tridactyla         A
+
+
+
+Printing out site pattern counts
+
+
+        20          1  P
+
+cabassous_unicinctus            A
+ornithorhynchus_anatinus        A
+bradypus_tridactylus            A
+chaetophractus_vellerosus       A
+choloepus_didactylus            A
+zaedyus_pichiy                  A
+calyptophractus_retusus         A
+dasypus_novemcinctus            A
+tachyglossus_aculeatus          A
+chaetophractus_villosus         A
+zaglossus_bruijni               A
+tamandua_tetradactyla           A
+dasypus_kappleri                A
+chlamyphorus_truncatus          A
+euphractus_sexcinctus           A
+choloepus_hoffmanni             A
+tolypeutes_matacus              A
+cyclopes_didactylus             A
+priodontes_maximus              A
+myrmecophaga_tridactyla         A
+
+
+
+Frequencies..
+                                    T      C      A      G
+cabassous_unicinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+bradypus_tridactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_vellerosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_didactylus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaedyus_pichiy                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+calyptophractus_retusus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_novemcinctus           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chaetophractus_villosus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tamandua_tetradactyla          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dasypus_kappleri               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlamyphorus_truncatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+euphractus_sexcinctus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+choloepus_hoffmanni            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tolypeutes_matacus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cyclopes_didactylus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+priodontes_maximus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+myrmecophaga_tridactyla        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = -0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+Time used:  1:34
+
+mean of parameters using all iterations
+   1.66256   0.62420   0.53312   0.48334   0.46240   0.44289   0.39751   0.26708   0.23260   0.18760   0.16202   0.13021   0.42569   0.30308   0.13909   0.43571   0.33918   0.24331   0.11963   0.08219   0.03805   0.58902   0.45316   0.31223   0.27849   0.01665   0.16350   0.42948   0.32845   0.21989   1.21703   0.81120   0.14440   0.88827   0.39238   0.03712   0.09776   5.49525   8.78873   8.30958   3.81867   4.90598
+
+Species tree for FigTree.  Branch lengths = posterior mean times; 95% CIs = labels
+(((((((((1_cabassous_chacoensis, (2_cabassous_unicinctus, 3_cabassous_centralis) 43 ) 42 , 4_cabassous_tatouay) 41 , (5_tolypeutes_matacus, 6_tolypeutes_tricinctus) 44 ) 40 , 7_priodontes_maximus) 39 , (8_calyptophractus_retusus, 9_chlamyphorus_truncatus) 45 ) 38 , (((10_chaetophractus_vellerosus, 11_zaedyus_pichiy) 48 , 12_chaetophractus_villosus) 47 , 13_euphractus_sexcinctus) 46 ) 37 , ((14_dasypus_novemcinctus, (((15_dasypus_sabanicola, 16_dasypus_yepesi) 53 , 17_dasypus_pilosus) 52 , (18_dasypus_hybridus, 19_dasypus_septemcinctus) 54 ) 51 ) 50 , 20_dasypus_kappleri) 49 ) 36 , (((21_bradypus_torquatus, ((22_bradypus_variegatus, 23_bradypus_tridactylus) 59 , 24_bradypus_pygmaeus) 58 ) 57 , (25_choloepus_didactylus, 26_choloepus_hoffmanni) 60 ) 56 , (((27_tamandua_tetradactyla, 28_tamandua_mexicana) 63 , 29_myrmecophaga_tridactyla) 62 , 30_cyclopes_didactylus) 61 ) 55 ) 35 , (31_ornithorhynchus_anatinus, (32_tachyglossus_aculeatus, 33_zaglossus_bruijni) 65 ) 64 ) 34 ;
+
+(((((((((cabassous_chacoensis: 0.232600, (cabassous_unicinctus: 0.187597, cabassous_centralis: 0.187597): 0.045003): 0.034485, cabassous_tatouay: 0.267085): 0.130429, (tolypeutes_matacus: 0.162023, tolypeutes_tricinctus: 0.162023): 0.235492): 0.045372, priodontes_maximus: 0.442886): 0.019512, (calyptophractus_retusus: 0.130214, chlamyphorus_truncatus: 0.130214): 0.332183): 0.020944, (((chaetophractus_vellerosus: 0.139089, zaedyus_pichiy: 0.139089): 0.163988, chaetophractus_villosus: 0.303077): 0.122611, euphractus_sexcinctus: 0.425688): 0.057653): 0.049778, ((dasypus_novemcinctus: 0.339183, (((dasypus_sabanicola: 0.082187, dasypus_yepesi: 0.082187): 0.037444, dasypus_pilosus: 0.119632): 0.123677, (dasypus_hybridus: 0.038048, dasypus_septemcinctus: 0.038048): 0.205260): 0.095875): 0.096528, dasypus_kappleri: 0.435711): 0.097409): 0.091079, (((bradypus_torquatus: 0.312229, ((bradypus_variegatus: 0.016647, bradypus_tridactylus: 0.016647): 0.261844, bradypus_pygmaeus: 0.278491): 0.033738): 0.140931, (choloepus_didactylus: 0.163502, choloepus_hoffmanni: 0.163502): 0.289659): 0.135855, (((tamandua_tetradactyla: 0.219893, tamandua_mexicana: 0.219893): 0.108556, myrmecophaga_tridactyla: 0.328450): 0.101027, cyclopes_didactylus: 0.429477): 0.159539): 0.035183): 1.038359, (ornithorhynchus_anatinus: 1.217031, (tachyglossus_aculeatus: 0.811201, zaglossus_bruijni: 0.811201): 0.405831): 0.445526): 0.047786;
+
+(((((((((cabassous_chacoensis: 0.232600, (cabassous_unicinctus: 0.187597, cabassous_centralis: 0.187597) [&95%HPD={0.116174, 0.263734}]: 0.045003) [&95%HPD={0.162068, 0.306996}]: 0.034485, cabassous_tatouay: 0.267085) [&95%HPD={0.192182, 0.336832}]: 0.130429, (tolypeutes_matacus: 0.162023, tolypeutes_tricinctus: 0.162023) [&95%HPD={0.0761957, 0.252586}]: 0.235492) [&95%HPD={0.346111, 0.446248}]: 0.045372, priodontes_maximus: 0.442886) [&95%HPD={0.400969, 0.485099}]: 0.019512, (calyptophractus_retusus: 0.130214, chlamyphorus_truncatus: 0.130214) [&95%HPD={0.0498156, 0.212584}]: 0.332183) [&95%HPD={0.421806, 0.501667}]: 0.020944, (((chaetophractus_vellerosus: 0.139089, zaedyus_pichiy: 0.139089) [&95%HPD={0.0793819, 0.199364}]: 0.163988, chaetophractus_villosus: 0.303077) [&95%HPD={0.242146, 0.363032}]: 0.122611, euphractus_sexcinctus: 0.425688) [&95%HPD={0.379873, 0.469624}]: 0.057653) [&95%HPD={0.445659, 0.52078}]: 0.049778, ((dasypus_novemcinctus: 0.339183, (((dasypus_sabanicola: 0.082187, dasypus_yepesi: 0.082187) [&95%HPD={0.0532794, 0.114788}]: 0.037444, dasypus_pilosus: 0.119632) [&95%HPD={0.0803716, 0.158367}]: 0.123677, (dasypus_hybridus: 0.038048, dasypus_septemcinctus: 0.038048) [&95%HPD={0.0098665, 0.0724332}]: 0.205260) [&95%HPD={0.191808, 0.292966}]: 0.095875) [&95%HPD={0.288765, 0.389309}]: 0.096528, dasypus_kappleri: 0.435711) [&95%HPD={0.394967, 0.478206}]: 0.097409) [&95%HPD={0.498498, 0.564308}]: 0.091079, (((bradypus_torquatus: 0.312229, ((bradypus_variegatus: 0.016647, bradypus_tridactylus: 0.016647) [&95%HPD={5.32e-05, 0.0495969}]: 0.261844, bradypus_pygmaeus: 0.278491) [&95%HPD={0.220936, 0.339994}]: 0.033738) [&95%HPD={0.253587, 0.371303}]: 0.140931, (choloepus_didactylus: 0.163502, choloepus_hoffmanni: 0.163502) [&95%HPD={0.101998, 0.22784}]: 0.289659) [&95%HPD={0.402463, 0.507968}]: 0.135855, (((tamandua_tetradactyla: 0.219893, tamandua_mexicana: 0.219893) [&95%HPD={0.115145, 0.346724}]: 0.108556, myrmecophaga_tridactyla: 0.328450) [&95%HPD={0.209311, 0.455545}]: 0.101027, cyclopes_didactylus: 0.429477) [&95%HPD={0.30615, 0.53959}]: 0.159539) [&95%HPD={0.554916, 0.62442}]: 0.035183) [&95%HPD={0.590425, 0.657208}]: 1.038359, (ornithorhynchus_anatinus: 1.217031, (tachyglossus_aculeatus: 0.811201, zaglossus_bruijni: 0.811201) [&95%HPD={0.380957, 1.17676}]: 0.405831) [&95%HPD={0.839636, 1.46637}]: 0.445526) [&95%HPD={1.55101, 1.77643}]: 0.047786;
+
+
+Posterior mean (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n34          1.6626 ( 1.5701,  1.8079) ( 1.5510,  1.7764)  0.2254 (Jnode 64)
+t_n35          0.6242 ( 0.5905,  0.6575) ( 0.5904,  0.6572)  0.0668 (Jnode 63)
+t_n36          0.5331 ( 0.4950,  0.5620) ( 0.4985,  0.5643)  0.0658 (Jnode 62)
+t_n37          0.4833 ( 0.4411,  0.5173) ( 0.4457,  0.5208)  0.0751 (Jnode 61)
+t_n38          0.4624 ( 0.4180,  0.4994) ( 0.4218,  0.5017)  0.0799 (Jnode 60)
+t_n39          0.4429 ( 0.3967,  0.4819) ( 0.4010,  0.4851)  0.0841 (Jnode 59)
+t_n40          0.3975 ( 0.3427,  0.4438) ( 0.3461,  0.4462)  0.1001 (Jnode 58)
+t_n41          0.2671 ( 0.1909,  0.3356) ( 0.1922,  0.3368)  0.1447 (Jnode 57)
+t_n42          0.2326 ( 0.1580,  0.3036) ( 0.1621,  0.3070)  0.1449 (Jnode 56)
+t_n43          0.1876 ( 0.1161,  0.2637) ( 0.1162,  0.2637)  0.1476 (Jnode 55)
+t_n44          0.1620 ( 0.0812,  0.2614) ( 0.0762,  0.2526)  0.1764 (Jnode 54)
+t_n45          0.1302 ( 0.0578,  0.2237) ( 0.0498,  0.2126)  0.1628 (Jnode 53)
+t_n46          0.4257 ( 0.3762,  0.4675) ( 0.3799,  0.4696)  0.0898 (Jnode 52)
+t_n47          0.3031 ( 0.2384,  0.3604) ( 0.2421,  0.3630)  0.1209 (Jnode 51)
+t_n48          0.1391 ( 0.0829,  0.2037) ( 0.0794,  0.1994)  0.1200 (Jnode 50)
+t_n49          0.4357 ( 0.3927,  0.4762) ( 0.3950,  0.4782)  0.0832 (Jnode 49)
+t_n50          0.3392 ( 0.2894,  0.3903) ( 0.2888,  0.3893)  0.1005 (Jnode 48)
+t_n51          0.2433 ( 0.1939,  0.2955) ( 0.1918,  0.2930)  0.1012 (Jnode 47)
+t_n52          0.1196 ( 0.0833,  0.1628) ( 0.0804,  0.1584)  0.0780 (Jnode 46)
+t_n53          0.0822 ( 0.0554,  0.1180) ( 0.0533,  0.1148)  0.0615 (Jnode 45)
+t_n54          0.0380 ( 0.0129,  0.0792) ( 0.0099,  0.0724)  0.0626 (Jnode 44)
+t_n55          0.5890 ( 0.5559,  0.6256) ( 0.5549,  0.6244)  0.0695 (Jnode 43)
+t_n56          0.4531 ( 0.4011,  0.5068) ( 0.4025,  0.5080)  0.1055 (Jnode 42)
+t_n57          0.3122 ( 0.2504,  0.3690) ( 0.2536,  0.3713)  0.1177 (Jnode 41)
+t_n58          0.2785 ( 0.2174,  0.3379) ( 0.2209,  0.3400)  0.1191 (Jnode 40)
+t_n59          0.0167 ( 0.0009,  0.0618) ( 0.0001,  0.0496)  0.0495 (Jnode 39)
+t_n60          0.1635 ( 0.1036,  0.2302) ( 0.1020,  0.2278)  0.1258 (Jnode 38)
+t_n61          0.4295 ( 0.2870,  0.5298) ( 0.3062,  0.5396)  0.2334 (Jnode 37)
+t_n62          0.3284 ( 0.1965,  0.4457) ( 0.2093,  0.4555)  0.2462 (Jnode 36)
+t_n63          0.2199 ( 0.1149,  0.3467) ( 0.1151,  0.3467)  0.2316 (Jnode 35)
+t_n64          1.2170 ( 0.6717,  1.4191) ( 0.8396,  1.4664)  0.6267 (Jnode 34)
+t_n65          0.8112 ( 0.3295,  1.1486) ( 0.3810,  1.1768)  0.7958 (Jnode 33)
+mu1            0.1453 ( 0.0179,  0.5330) ( 0.0041,  0.4090)  0.4049
+mu2            0.8855 ( 0.1183,  2.9475) ( 0.0288,  2.3868)  2.3580
+mu3            0.3916 ( 0.0428,  1.4355) ( 0.0108,  1.1316)  1.1208
+mu4            0.0372 ( 0.0052,  0.1388) ( 0.0019,  0.1053)  0.1034
+mu5            0.0979 ( 0.0117,  0.3766) ( 0.0033,  0.2787)  0.2754
+sigma2_1       5.4956 ( 4.0854,  7.2026) ( 3.9877,  7.0490)  3.0614
+sigma2_2       8.7931 ( 6.8177, 11.1283) ( 6.7931, 11.0893)  4.2962
+sigma2_3       8.3100 ( 6.3067, 10.7564) ( 6.2651, 10.6698)  4.4048
+sigma2_4       3.8214 ( 2.4462,  5.6059) ( 2.2999,  5.4065)  3.1066
+sigma2_5       4.9046 ( 3.1938,  7.0263) ( 3.1459,  6.9543)  3.8084
+lnL         -158.7791 (-184.1710, -135.4270) (-183.1370, -134.5240) 48.6130
