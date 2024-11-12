@@ -1,0 +1,814 @@
+MCMCTREE (paml version 4.10.7, June 2023) Afotheria_5parts_iqtree.nex.dummyAln.txt
+
+
+*** Locus 1 ***
+     34      1
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+microgale_longicaudata          A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_principula            A
+elephas_maximus_indicus         A
+microgale_brevicaudata          A
+ornithorhynchus_anatinus        A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+elephantulus_rupestris          A
+zaglossus_bruijni               A
+microgale_pusilla               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+microgale_majori                A
+elephantulus_rufescens          A
+
+
+
+Printing out site pattern counts
+
+
+        34          1  P
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+microgale_longicaudata          A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_principula            A
+elephas_maximus_indicus         A
+microgale_brevicaudata          A
+ornithorhynchus_anatinus        A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+elephantulus_rupestris          A
+zaglossus_bruijni               A
+microgale_pusilla               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+microgale_majori                A
+elephantulus_rufescens          A
+
+
+
+Frequencies..
+                                    T      C      A      G
+elephantulus_edwardii          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_sp_vb001          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+orycteropus_afer               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+echinops_telfairi              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrosaltator_rozeti           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+trichechus_manatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_hottentotus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_longicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_cyclotis             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_flavicaudatus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_principula           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus_indicus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_brevicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_intufi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+oryzorictes                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dugong_dugon                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+eremitalpa_granti              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rupestris         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_pusilla              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dendrohyrax_dorsalis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_proboscideus     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_brachyrhynchus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_micus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_asiatica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrodromus_tetradactylus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_udzungwensis       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_africana             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+procavia_capensis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_majori               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rufescens         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 2 ***
+     34      1
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+microgale_longicaudata          A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_principula            A
+elephas_maximus_indicus         A
+microgale_brevicaudata          A
+ornithorhynchus_anatinus        A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+elephantulus_rupestris          A
+zaglossus_bruijni               A
+microgale_pusilla               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+microgale_majori                A
+elephantulus_rufescens          A
+
+
+
+Printing out site pattern counts
+
+
+        34          1  P
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+microgale_longicaudata          A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_principula            A
+elephas_maximus_indicus         A
+microgale_brevicaudata          A
+ornithorhynchus_anatinus        A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+elephantulus_rupestris          A
+zaglossus_bruijni               A
+microgale_pusilla               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+microgale_majori                A
+elephantulus_rufescens          A
+
+
+
+Frequencies..
+                                    T      C      A      G
+elephantulus_edwardii          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_sp_vb001          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+orycteropus_afer               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+echinops_telfairi              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrosaltator_rozeti           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+trichechus_manatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_hottentotus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_longicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_cyclotis             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_flavicaudatus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_principula           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus_indicus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_brevicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_intufi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+oryzorictes                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dugong_dugon                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+eremitalpa_granti              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rupestris         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_pusilla              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dendrohyrax_dorsalis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_proboscideus     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_brachyrhynchus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_micus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_asiatica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrodromus_tetradactylus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_udzungwensis       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_africana             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+procavia_capensis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_majori               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rufescens         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 3 ***
+     32      1
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+zaglossus_bruijni               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+elephantulus_rufescens          A
+
+
+
+Printing out site pattern counts
+
+
+        32          1  P
+
+elephantulus_edwardii           A
+elephantulus_sp_vb001           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+eremitalpa_granti               A
+zaglossus_bruijni               A
+dendrohyrax_dorsalis            A
+macroscelides_proboscideus      A
+elephantulus_brachyrhynchus     A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+chrysochloris_asiatica          A
+petrodromus_tetradactylus       A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+loxodonta_africana              A
+procavia_capensis               A
+elephantulus_rufescens          A
+
+
+
+Frequencies..
+                                    T      C      A      G
+elephantulus_edwardii          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_sp_vb001          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tenrec_ecaudatus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+orycteropus_afer               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+echinops_telfairi              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrosaltator_rozeti           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_myurus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+trichechus_manatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_hottentotus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_cirnei_reichardi   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_cyclotis             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_flavicaudatus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysospalax_trevelyani        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_intufi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+oryzorictes                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dugong_dugon                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+eremitalpa_granti              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dendrohyrax_dorsalis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_proboscideus     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_brachyrhynchus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+micropotamogale_lamottei       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_micus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_asiatica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrodromus_tetradactylus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_udzungwensis       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_africana             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+procavia_capensis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rufescens         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 4 ***
+     52      1
+
+calcochloris_obtusirostris      A
+elephantulus_edwardii           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+amblysomus_marleyi              A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+amblysomus_robustus             A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_brevicaudata          A
+neamblysomus_julianae           A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+cryptochloris_wintoni           A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+limnogale_mergulus              A
+eremitalpa_granti               A
+potamogale_velox                A
+zaglossus_bruijni               A
+geogale_aurita                  A
+dendrohyrax_dorsalis            A
+hemicentetes_semispinosus       A
+macroscelides_proboscideus      A
+amblysomus_corriae              A
+rhynchocyon_petersi             A
+setifer_setosus                 A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+heterohyrax_brucei              A
+chrysochloris_asiatica          A
+carpitalpa_arendsi              A
+chlorotalpa_sclateri            A
+petrodromus_tetradactylus       A
+chrysochloris_stuhlmanni        A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+chlorotalpa_duthieae            A
+amblysomus_septentrionalis      A
+loxodonta_africana              A
+microgale_talazaci              A
+neamblysomus_gunningi           A
+procavia_capensis               A
+chrysospalax_villosus           A
+elephantulus_rufescens          A
+
+
+
+Printing out site pattern counts
+
+
+        52          1  P
+
+calcochloris_obtusirostris      A
+elephantulus_edwardii           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+amblysomus_marleyi              A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+amblysomus_robustus             A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_brevicaudata          A
+neamblysomus_julianae           A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+cryptochloris_wintoni           A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+limnogale_mergulus              A
+eremitalpa_granti               A
+potamogale_velox                A
+zaglossus_bruijni               A
+geogale_aurita                  A
+dendrohyrax_dorsalis            A
+hemicentetes_semispinosus       A
+macroscelides_proboscideus      A
+amblysomus_corriae              A
+rhynchocyon_petersi             A
+setifer_setosus                 A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+heterohyrax_brucei              A
+chrysochloris_asiatica          A
+carpitalpa_arendsi              A
+chlorotalpa_sclateri            A
+petrodromus_tetradactylus       A
+chrysochloris_stuhlmanni        A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+chlorotalpa_duthieae            A
+amblysomus_septentrionalis      A
+loxodonta_africana              A
+microgale_talazaci              A
+neamblysomus_gunningi           A
+procavia_capensis               A
+chrysospalax_villosus           A
+elephantulus_rufescens          A
+
+
+
+Frequencies..
+                                    T      C      A      G
+calcochloris_obtusirostris     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_edwardii          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tenrec_ecaudatus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+orycteropus_afer               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+echinops_telfairi              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrosaltator_rozeti           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_marleyi             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_myurus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+trichechus_manatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_hottentotus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_robustus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_cirnei_reichardi   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_cyclotis             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_flavicaudatus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_brevicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+neamblysomus_julianae          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysospalax_trevelyani        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cryptochloris_wintoni          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_intufi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+oryzorictes                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dugong_dugon                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+limnogale_mergulus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+eremitalpa_granti              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+potamogale_velox               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+geogale_aurita                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dendrohyrax_dorsalis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+hemicentetes_semispinosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_proboscideus     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_corriae             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_petersi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+setifer_setosus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+micropotamogale_lamottei       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_micus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+heterohyrax_brucei             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_asiatica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+carpitalpa_arendsi             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlorotalpa_sclateri           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrodromus_tetradactylus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_stuhlmanni       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_udzungwensis       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlorotalpa_duthieae           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_septentrionalis     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_africana             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_talazaci             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+neamblysomus_gunningi          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+procavia_capensis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysospalax_villosus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rufescens         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = -0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 5 ***
+     52      1
+
+calcochloris_obtusirostris      A
+elephantulus_edwardii           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+amblysomus_marleyi              A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+amblysomus_robustus             A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_brevicaudata          A
+neamblysomus_julianae           A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+cryptochloris_wintoni           A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+limnogale_mergulus              A
+eremitalpa_granti               A
+potamogale_velox                A
+zaglossus_bruijni               A
+geogale_aurita                  A
+dendrohyrax_dorsalis            A
+hemicentetes_semispinosus       A
+macroscelides_proboscideus      A
+amblysomus_corriae              A
+rhynchocyon_petersi             A
+setifer_setosus                 A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+heterohyrax_brucei              A
+chrysochloris_asiatica          A
+carpitalpa_arendsi              A
+chlorotalpa_sclateri            A
+petrodromus_tetradactylus       A
+chrysochloris_stuhlmanni        A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+chlorotalpa_duthieae            A
+amblysomus_septentrionalis      A
+loxodonta_africana              A
+microgale_talazaci              A
+neamblysomus_gunningi           A
+procavia_capensis               A
+chrysospalax_villosus           A
+elephantulus_rufescens          A
+
+
+
+Printing out site pattern counts
+
+
+        52          1  P
+
+calcochloris_obtusirostris      A
+elephantulus_edwardii           A
+tenrec_ecaudatus                A
+orycteropus_afer                A
+echinops_telfairi               A
+petrosaltator_rozeti            A
+amblysomus_marleyi              A
+elephantulus_myurus             A
+trichechus_manatus              A
+amblysomus_hottentotus          A
+amblysomus_robustus             A
+rhynchocyon_cirnei_reichardi    A
+loxodonta_cyclotis              A
+macroscelides_flavicaudatus     A
+microgale_brevicaudata          A
+neamblysomus_julianae           A
+ornithorhynchus_anatinus        A
+chrysospalax_trevelyani         A
+cryptochloris_wintoni           A
+elephantulus_intufi             A
+oryzorictes                     A
+dugong_dugon                    A
+limnogale_mergulus              A
+eremitalpa_granti               A
+potamogale_velox                A
+zaglossus_bruijni               A
+geogale_aurita                  A
+dendrohyrax_dorsalis            A
+hemicentetes_semispinosus       A
+macroscelides_proboscideus      A
+amblysomus_corriae              A
+rhynchocyon_petersi             A
+setifer_setosus                 A
+micropotamogale_lamottei        A
+macroscelides_micus             A
+heterohyrax_brucei              A
+chrysochloris_asiatica          A
+carpitalpa_arendsi              A
+chlorotalpa_sclateri            A
+petrodromus_tetradactylus       A
+chrysochloris_stuhlmanni        A
+elephas_maximus                 A
+tachyglossus_aculeatus          A
+rhynchocyon_udzungwensis        A
+chlorotalpa_duthieae            A
+amblysomus_septentrionalis      A
+loxodonta_africana              A
+microgale_talazaci              A
+neamblysomus_gunningi           A
+procavia_capensis               A
+chrysospalax_villosus           A
+elephantulus_rufescens          A
+
+
+
+Frequencies..
+                                    T      C      A      G
+calcochloris_obtusirostris     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_edwardii          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tenrec_ecaudatus               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+orycteropus_afer               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+echinops_telfairi              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrosaltator_rozeti           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_marleyi             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_myurus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+trichechus_manatus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_hottentotus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_robustus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_cirnei_reichardi   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_cyclotis             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_flavicaudatus    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_brevicaudata         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+neamblysomus_julianae          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+ornithorhynchus_anatinus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysospalax_trevelyani        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+cryptochloris_wintoni          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_intufi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+oryzorictes                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dugong_dugon                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+limnogale_mergulus             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+eremitalpa_granti              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+potamogale_velox               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+zaglossus_bruijni              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+geogale_aurita                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+dendrohyrax_dorsalis           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+hemicentetes_semispinosus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_proboscideus     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_corriae             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_petersi            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+setifer_setosus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+micropotamogale_lamottei       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+macroscelides_micus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+heterohyrax_brucei             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_asiatica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+carpitalpa_arendsi             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlorotalpa_sclateri           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+petrodromus_tetradactylus      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysochloris_stuhlmanni       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephas_maximus                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+tachyglossus_aculeatus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+rhynchocyon_udzungwensis       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chlorotalpa_duthieae           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+amblysomus_septentrionalis     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+loxodonta_africana             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+microgale_talazaci             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+neamblysomus_gunningi          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+procavia_capensis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+chrysospalax_villosus          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+elephantulus_rufescens         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = -0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+Time used: 15:08:08
+
+mean of parameters using all iterations
+   2.49109   0.77524   0.74630   0.72290   0.52257   0.28878   0.24481   0.16065   0.01616   0.19965   0.14820   0.04081   0.25018   0.17221   0.20129   0.06052   0.01891   0.00482   0.67030   0.52986   0.38469   0.29409   0.14932   0.24290   0.31639   0.29632   0.19638   0.11430   0.08607   0.03605   0.16684   0.12542   0.18444   0.28425   0.22844   0.17880   0.11924   0.04713   0.03485   0.02603   0.01670   0.08441   0.02869   0.16644   0.11562   0.07809   0.02162   0.18042   0.11475   0.62422   0.57764   0.23046   0.05503   0.04358   0.01374   0.12566   0.09627   2.04052   1.05029   0.09375   0.51791   0.18720   0.08088   0.21401   0.58179   3.15283   0.61861   1.19393   1.24665
+
+Species tree for FigTree.  Branch lengths = posterior mean times; 95% CIs = labels
+((((((((1_elephantulus_edwardii, (2_elephantulus_sp_vb001, 3_elephantulus_myurus) 69 ) 68 , ((4_elephantulus_intufi, 5_elephantulus_rupestris) 71 , (6_elephantulus_brachyrhynchus, 7_elephantulus_rufescens) 72 ) 70 ) 67 , ((8_petrosaltator_rozeti, 9_petrodromus_tetradactylus) 74 , ((10_macroscelides_flavicaudatus, 11_macroscelides_proboscideus) 76 , 12_macroscelides_micus) 75 ) 73 ) 66 , (13_rhynchocyon_udzungwensis, (14_rhynchocyon_cirnei_reichardi, 15_rhynchocyon_petersi) 78 ) 77 ) 65 , (((((16_echinops_telfairi, 17_setifer_setosus) 83 , (18_tenrec_ecaudatus, 19_hemicentetes_semispinosus) 84 ) 82 , ((((((20_microgale_longicaudata, 21_microgale_majori) 90 , 22_microgale_principula) 89 , 23_microgale_pusilla) 88 , ((24_microgale_brevicaudata, 25_limnogale_mergulus) 92 , 26_microgale_talazaci) 91 ) 87 , 27_geogale_aurita) 86 , 28_oryzorictes) 85 ) 81 , (29_micropotamogale_lamottei, 30_potamogale_velox) 93 ) 80 , ((((((((31_amblysomus_hottentotus, 32_amblysomus_corriae) 101 , 33_amblysomus_marleyi) 100 , 34_amblysomus_septentrionalis) 99 , 35_amblysomus_robustus) 98 , ((36_neamblysomus_julianae, 37_neamblysomus_gunningi) 103 , 38_carpitalpa_arendsi) 102 ) 97 , (((39_chrysospalax_trevelyani, 40_calcochloris_obtusirostris) 106 , 41_chrysospalax_villosus) 105 , (42_chlorotalpa_sclateri, 43_chlorotalpa_duthieae) 107 ) 104 ) 96 , 44_eremitalpa_granti) 95 , ((45_chrysochloris_asiatica, 46_cryptochloris_wintoni) 109 , 47_chrysochloris_stuhlmanni) 108 ) 94 ) 79 ) 64 , 48_orycteropus_afer) 63 , (((49_trichechus_manatus, 50_dugong_dugon) 112 , ((51_loxodonta_cyclotis, 52_loxodonta_africana) 114 , (53_elephas_maximus_indicus, 54_elephas_maximus) 115 ) 113 ) 111 , (55_dendrohyrax_dorsalis, (56_procavia_capensis, 57_heterohyrax_brucei) 117 ) 116 ) 110 ) 62 , (58_ornithorhynchus_anatinus, (59_zaglossus_bruijni, 60_tachyglossus_aculeatus) 119 ) 118 ) 61 ;
+
+((((((((elephantulus_edwardii: 0.160652, (elephantulus_sp_vb001: 0.016164, elephantulus_myurus: 0.016164): 0.144489): 0.084160, ((elephantulus_intufi: 0.148203, elephantulus_rupestris: 0.148203): 0.051446, (elephantulus_brachyrhynchus: 0.040811, elephantulus_rufescens: 0.040811): 0.158838): 0.045163): 0.043970, ((petrosaltator_rozeti: 0.172212, petrodromus_tetradactylus: 0.172212): 0.077972, ((macroscelides_flavicaudatus: 0.060520, macroscelides_proboscideus: 0.060520): 0.140771, macroscelides_micus: 0.201292): 0.048893): 0.038598): 0.233784, (rhynchocyon_udzungwensis: 0.018913, (rhynchocyon_cirnei_reichardi: 0.004823, rhynchocyon_petersi: 0.004823): 0.014090): 0.503654): 0.200337, (((((echinops_telfairi: 0.149323, setifer_setosus: 0.149323): 0.144769, (tenrec_ecaudatus: 0.242898, hemicentetes_semispinosus: 0.242898): 0.051194): 0.090593, ((((((microgale_longicaudata: 0.036050, microgale_majori: 0.036050): 0.050018, microgale_principula: 0.086067): 0.028233, microgale_pusilla: 0.114301): 0.082077, ((microgale_brevicaudata: 0.125422, limnogale_mergulus: 0.125422): 0.041422, microgale_talazaci: 0.166843): 0.029534): 0.099943, geogale_aurita: 0.296320): 0.020066, oryzorictes: 0.316386): 0.068299): 0.145171, (micropotamogale_lamottei: 0.184443, potamogale_velox: 0.184443): 0.345413): 0.140440, ((((((((amblysomus_hottentotus: 0.016699, amblysomus_corriae: 0.016699): 0.009333, amblysomus_marleyi: 0.026031): 0.008822, amblysomus_septentrionalis: 0.034853): 0.012280, amblysomus_robustus: 0.047133): 0.072112, ((neamblysomus_julianae: 0.028687, neamblysomus_gunningi: 0.028687): 0.055726, carpitalpa_arendsi: 0.084413): 0.034832): 0.059559, (((chrysospalax_trevelyani: 0.078090, calcochloris_obtusirostris: 0.078090): 0.037531, chrysospalax_villosus: 0.115621): 0.050821, (chlorotalpa_sclateri: 0.021617, chlorotalpa_duthieae: 0.021617): 0.144825): 0.012362): 0.049636, eremitalpa_granti: 0.228440): 0.055807, ((chrysochloris_asiatica: 0.114750, cryptochloris_wintoni: 0.114750): 0.065672, chrysochloris_stuhlmanni: 0.180422): 0.103826): 0.386049): 0.052608): 0.023393, orycteropus_afer: 0.746297): 0.028944, (((trichechus_manatus: 0.230463, dugong_dugon: 0.230463): 0.347172, ((loxodonta_cyclotis: 0.043583, loxodonta_africana: 0.043583): 0.011443, (elephas_maximus_indicus: 0.013744, elephas_maximus: 0.013744): 0.041283): 0.522608): 0.046583, (dendrohyrax_dorsalis: 0.125659, (procavia_capensis: 0.096273, heterohyrax_brucei: 0.096273): 0.029386): 0.498559): 0.151023): 1.715844, (ornithorhynchus_anatinus: 2.040516, (zaglossus_bruijni: 1.050294, tachyglossus_aculeatus: 1.050294): 0.990221): 0.450570): 0.000002;
+
+((((((((elephantulus_edwardii: 0.160652, (elephantulus_sp_vb001: 0.016164, elephantulus_myurus: 0.016164) [&95%HPD={0.0065334, 0.0272875}]: 0.144489) [&95%HPD={0.117446, 0.204253}]: 0.084160, ((elephantulus_intufi: 0.148203, elephantulus_rupestris: 0.148203) [&95%HPD={0.0964437, 0.200317}]: 0.051446, (elephantulus_brachyrhynchus: 0.040811, elephantulus_rufescens: 0.040811) [&95%HPD={0.0243669, 0.0589343}]: 0.158838) [&95%HPD={0.149671, 0.248905}]: 0.045163) [&95%HPD={0.187015, 0.298971}]: 0.043970, ((petrosaltator_rozeti: 0.172212, petrodromus_tetradactylus: 0.172212) [&95%HPD={0.126457, 0.218162}]: 0.077972, ((macroscelides_flavicaudatus: 0.060520, macroscelides_proboscideus: 0.060520) [&95%HPD={0.0395051, 0.0816672}]: 0.140771, macroscelides_micus: 0.201292) [&95%HPD={0.151176, 0.251596}]: 0.048893) [&95%HPD={0.190785, 0.305783}]: 0.038598) [&95%HPD={0.223059, 0.347089}]: 0.233784, (rhynchocyon_udzungwensis: 0.018913, (rhynchocyon_cirnei_reichardi: 0.004823, rhynchocyon_petersi: 0.004823) [&95%HPD={0.0002418, 0.0109763}]: 0.014090) [&95%HPD={0.0063972, 0.0335133}]: 0.503654) [&95%HPD={0.43197, 0.584721}]: 0.200337, (((((echinops_telfairi: 0.149323, setifer_setosus: 0.149323) [&95%HPD={0.0885891, 0.214781}]: 0.144769, (tenrec_ecaudatus: 0.242898, hemicentetes_semispinosus: 0.242898) [&95%HPD={0.168716, 0.319856}]: 0.051194) [&95%HPD={0.216688, 0.375928}]: 0.090593, ((((((microgale_longicaudata: 0.036050, microgale_majori: 0.036050) [&95%HPD={0.0179798, 0.0563409}]: 0.050018, microgale_principula: 0.086067) [&95%HPD={0.0482311, 0.12543}]: 0.028233, microgale_pusilla: 0.114301) [&95%HPD={0.0668951, 0.162968}]: 0.082077, ((microgale_brevicaudata: 0.125422, limnogale_mergulus: 0.125422) [&95%HPD={0.0784888, 0.173762}]: 0.041422, microgale_talazaci: 0.166843) [&95%HPD={0.108255, 0.226856}]: 0.029534) [&95%HPD={0.132584, 0.261418}]: 0.099943, geogale_aurita: 0.296320) [&95%HPD={0.220511, 0.386408}]: 0.020066, oryzorictes: 0.316386) [&95%HPD={0.234458, 0.405452}]: 0.068299) [&95%HPD={0.292804, 0.487699}]: 0.145171, (micropotamogale_lamottei: 0.184443, potamogale_velox: 0.184443) [&95%HPD={0.0867807, 0.288362}]: 0.345413) [&95%HPD={0.407633, 0.659122}]: 0.140440, ((((((((amblysomus_hottentotus: 0.016699, amblysomus_corriae: 0.016699) [&95%HPD={3.4e-06, 0.0391606}]: 0.009333, amblysomus_marleyi: 0.026031) [&95%HPD={0.0031757, 0.0538757}]: 0.008822, amblysomus_septentrionalis: 0.034853) [&95%HPD={0.0077834, 0.0677808}]: 0.012280, amblysomus_robustus: 0.047133) [&95%HPD={0.0129343, 0.0842461}]: 0.072112, ((neamblysomus_julianae: 0.028687, neamblysomus_gunningi: 0.028687) [&95%HPD={0.0021894, 0.0607272}]: 0.055726, carpitalpa_arendsi: 0.084413) [&95%HPD={0.0365055, 0.133761}]: 0.034832) [&95%HPD={0.0665094, 0.173889}]: 0.059559, (((chrysospalax_trevelyani: 0.078090, calcochloris_obtusirostris: 0.078090) [&95%HPD={0.0297363, 0.132038}]: 0.037531, chrysospalax_villosus: 0.115621) [&95%HPD={0.0584274, 0.177502}]: 0.050821, (chlorotalpa_sclateri: 0.021617, chlorotalpa_duthieae: 0.021617) [&95%HPD={6.7e-06, 0.0565393}]: 0.144825) [&95%HPD={0.107547, 0.228968}]: 0.012362) [&95%HPD={0.119376, 0.241236}]: 0.049636, eremitalpa_granti: 0.228440) [&95%HPD={0.155834, 0.303903}]: 0.055807, ((chrysochloris_asiatica: 0.114750, cryptochloris_wintoni: 0.114750) [&95%HPD={0.0407662, 0.195205}]: 0.065672, chrysochloris_stuhlmanni: 0.180422) [&95%HPD={0.100838, 0.265064}]: 0.103826) [&95%HPD={0.199093, 0.371009}]: 0.386049) [&95%HPD={0.519943, 0.82401}]: 0.052608) [&95%HPD={0.559734, 0.889202}]: 0.023393, orycteropus_afer: 0.746297) [&95%HPD={0.578395, 0.920471}]: 0.028944, (((trichechus_manatus: 0.230463, dugong_dugon: 0.230463) [&95%HPD={0.149704, 0.317204}]: 0.347172, ((loxodonta_cyclotis: 0.043583, loxodonta_africana: 0.043583) [&95%HPD={0.0238012, 0.066079}]: 0.011443, (elephas_maximus_indicus: 0.013744, elephas_maximus: 0.013744) [&95%HPD={0.0048751, 0.0249867}]: 0.041283) [&95%HPD={0.0303654, 0.083314}]: 0.522608) [&95%HPD={0.433684, 0.725503}]: 0.046583, (dendrohyrax_dorsalis: 0.125659, (procavia_capensis: 0.096273, heterohyrax_brucei: 0.096273) [&95%HPD={0.0528666, 0.143312}]: 0.029386) [&95%HPD={0.073197, 0.181337}]: 0.498559) [&95%HPD={0.473945, 0.780761}]: 0.151023) [&95%HPD={0.602886, 0.961408}]: 1.715844, (ornithorhynchus_anatinus: 2.040516, (zaglossus_bruijni: 1.050294, tachyglossus_aculeatus: 1.050294) [&95%HPD={0.472112, 1.58853}]: 0.990221) [&95%HPD={1.2845, 2.76183}]: 0.450570) [&95%HPD={1.92656, 3.07898}]: 0.000002;
+
+
+Posterior mean (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n61          2.4912 ( 1.9404,  3.0981) ( 1.9266,  3.0790)  1.1524 (Jnode 118)
+t_n62          0.7752 ( 0.6084,  0.9694) ( 0.6029,  0.9614)  0.3585 (Jnode 117)
+t_n63          0.7462 ( 0.5870,  0.9314) ( 0.5784,  0.9205)  0.3421 (Jnode 116)
+t_n64          0.7228 ( 0.5694,  0.9005) ( 0.5597,  0.8892)  0.3295 (Jnode 115)
+t_n65          0.5226 ( 0.4199,  0.5776) ( 0.4320,  0.5847)  0.1528 (Jnode 114)
+t_n66          0.2888 ( 0.2216,  0.3460) ( 0.2231,  0.3471)  0.1240 (Jnode 113)
+t_n67          0.2448 ( 0.1858,  0.2980) ( 0.1870,  0.2990)  0.1120 (Jnode 112)
+t_n68          0.1606 ( 0.1177,  0.2047) ( 0.1174,  0.2043)  0.0868 (Jnode 111)
+t_n69          0.0162 ( 0.0077,  0.0297) ( 0.0065,  0.0273)  0.0208 (Jnode 110)
+t_n70          0.1997 ( 0.1489,  0.2482) ( 0.1497,  0.2489)  0.0992 (Jnode 109)
+t_n71          0.1480 ( 0.0966,  0.2006) ( 0.0964,  0.2003)  0.1039 (Jnode 108)
+t_n72          0.0409 ( 0.0254,  0.0607) ( 0.0244,  0.0589)  0.0346 (Jnode 107)
+t_n73          0.2501 ( 0.1895,  0.3047) ( 0.1908,  0.3058)  0.1150 (Jnode 106)
+t_n74          0.1723 ( 0.1268,  0.2187) ( 0.1265,  0.2182)  0.0917 (Jnode 105)
+t_n75          0.2013 ( 0.1498,  0.2508) ( 0.1512,  0.2516)  0.1004 (Jnode 104)
+t_n76          0.0604 ( 0.0409,  0.0837) ( 0.0395,  0.0817)  0.0422 (Jnode 103)
+t_n77          0.0189 ( 0.0080,  0.0364) ( 0.0064,  0.0335)  0.0271 (Jnode 102)
+t_n78          0.0048 ( 0.0008,  0.0129) ( 0.0002,  0.0110)  0.0107 (Jnode 101)
+t_n79          0.6702 ( 0.5278,  0.8339) ( 0.5199,  0.8240)  0.3041 (Jnode 100)
+t_n80          0.5297 ( 0.4152,  0.6696) ( 0.4076,  0.6591)  0.2515 (Jnode 99)
+t_n81          0.3845 ( 0.2963,  0.4913) ( 0.2928,  0.4877)  0.1949 (Jnode 98)
+t_n82          0.2939 ( 0.2216,  0.3823) ( 0.2167,  0.3759)  0.1592 (Jnode 97)
+t_n83          0.1494 ( 0.0922,  0.2208) ( 0.0886,  0.2148)  0.1262 (Jnode 96)
+t_n84          0.2426 ( 0.1730,  0.3262) ( 0.1687,  0.3199)  0.1511 (Jnode 95)
+t_n85          0.3163 ( 0.2390,  0.4117) ( 0.2345,  0.4055)  0.1710 (Jnode 94)
+t_n86          0.2963 ( 0.2217,  0.3884) ( 0.2205,  0.3864)  0.1659 (Jnode 93)
+t_n87          0.1963 ( 0.1381,  0.2685) ( 0.1326,  0.2614)  0.1288 (Jnode 92)
+t_n88          0.1143 ( 0.0717,  0.1698) ( 0.0669,  0.1630)  0.0961 (Jnode 91)
+t_n89          0.0861 ( 0.0522,  0.1316) ( 0.0482,  0.1254)  0.0772 (Jnode 90)
+t_n90          0.0361 ( 0.0199,  0.0598) ( 0.0180,  0.0563)  0.0384 (Jnode 89)
+t_n91          0.1667 ( 0.1131,  0.2329) ( 0.1083,  0.2269)  0.1186 (Jnode 88)
+t_n92          0.1253 ( 0.0821,  0.1792) ( 0.0785,  0.1738)  0.0953 (Jnode 87)
+t_n93          0.1843 ( 0.0946,  0.2993) ( 0.0868,  0.2884)  0.2016 (Jnode 86)
+t_n94          0.2842 ( 0.2058,  0.3798) ( 0.1991,  0.3710)  0.1719 (Jnode 85)
+t_n95          0.2285 ( 0.1611,  0.3107) ( 0.1558,  0.3039)  0.1481 (Jnode 84)
+t_n96          0.1787 ( 0.1236,  0.2476) ( 0.1194,  0.2412)  0.1219 (Jnode 83)
+t_n97          0.1191 ( 0.0704,  0.1792) ( 0.0665,  0.1739)  0.1074 (Jnode 82)
+t_n98          0.0471 ( 0.0167,  0.0903) ( 0.0129,  0.0842)  0.0713 (Jnode 81)
+t_n99          0.0349 ( 0.0100,  0.0727) ( 0.0078,  0.0678)  0.0600 (Jnode 80)
+t_n100         0.0261 ( 0.0056,  0.0595) ( 0.0032,  0.0539)  0.0507 (Jnode 79)
+t_n101         0.0167 ( 0.0014,  0.0457) ( 0.0000,  0.0392)  0.0392 (Jnode 78)
+t_n102         0.0844 ( 0.0408,  0.1399) ( 0.0365,  0.1338)  0.0973 (Jnode 77)
+t_n103         0.0288 ( 0.0050,  0.0678) ( 0.0022,  0.0607)  0.0585 (Jnode 76)
+t_n104         0.1664 ( 0.1113,  0.2341) ( 0.1075,  0.2290)  0.1214 (Jnode 75)
+t_n105         0.1157 ( 0.0618,  0.1820) ( 0.0584,  0.1775)  0.1191 (Jnode 74)
+t_n106         0.0781 ( 0.0334,  0.1384) ( 0.0297,  0.1320)  0.1023 (Jnode 73)
+t_n107         0.0215 ( 0.0011,  0.0671) ( 0.0000,  0.0565)  0.0565 (Jnode 72)
+t_n108         0.1801 ( 0.1047,  0.2702) ( 0.1008,  0.2651)  0.1642 (Jnode 71)
+t_n109         0.1147 ( 0.0452,  0.2017) ( 0.0408,  0.1952)  0.1544 (Jnode 70)
+t_n110         0.6242 ( 0.4805,  0.7905) ( 0.4739,  0.7808)  0.3068 (Jnode 69)
+t_n111         0.5776 ( 0.4411,  0.7354) ( 0.4337,  0.7255)  0.2918 (Jnode 68)
+t_n112         0.2303 ( 0.1547,  0.3242) ( 0.1497,  0.3172)  0.1675 (Jnode 67)
+t_n113         0.0550 ( 0.0328,  0.0877) ( 0.0304,  0.0833)  0.0529 (Jnode 66)
+t_n114         0.0436 ( 0.0258,  0.0697) ( 0.0238,  0.0661)  0.0423 (Jnode 65)
+t_n115         0.0138 ( 0.0059,  0.0274) ( 0.0049,  0.0250)  0.0201 (Jnode 64)
+t_n116         0.1257 ( 0.0776,  0.1880) ( 0.0732,  0.1813)  0.1081 (Jnode 63)
+t_n117         0.0963 ( 0.0570,  0.1495) ( 0.0529,  0.1433)  0.0904 (Jnode 62)
+t_n118         2.0416 ( 1.2972,  2.7762) ( 1.2845,  2.7618)  1.4773 (Jnode 61)
+t_n119         1.0502 ( 0.5030,  1.6491) ( 0.4721,  1.5885)  1.1164 (Jnode 60)
+mu1            0.0939 ( 0.0340,  0.2078) ( 0.0235,  0.1825)  0.1591
+mu2            0.5193 ( 0.1353,  1.2241) ( 0.0867,  1.0776)  0.9909
+mu3            0.1872 ( 0.0672,  0.4095) ( 0.0468,  0.3606)  0.3138
+mu4            0.0807 ( 0.0175,  0.2293) ( 0.0085,  0.1922)  0.1837
+mu5            0.2130 ( 0.0542,  0.5457) ( 0.0304,  0.4671)  0.4367
+sigma2_1       0.5815 ( 0.2905,  1.0379) ( 0.2550,  0.9661)  0.7112
+sigma2_2       3.1536 ( 2.0236,  4.6502) ( 1.9033,  4.4669)  2.5636
+sigma2_3       0.6188 ( 0.3157,  1.0826) ( 0.2852,  1.0264)  0.7412
+sigma2_4       1.1968 ( 0.6923,  1.9064) ( 0.6336,  1.8155)  1.1819
+sigma2_5       1.2457 ( 0.7526,  1.9349) ( 0.7044,  1.8517)  1.1473
+lnL         -116.3130 (-142.2150, -91.8140) (-141.6460, -91.5450) 50.1010

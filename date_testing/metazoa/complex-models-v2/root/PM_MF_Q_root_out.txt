@@ -1,0 +1,1941 @@
+MCMCTREE (paml version 4.10.7, June 2023) aln_10P_mf.nex.best_model.nex.dummyAln.txt
+
+
+*** Locus 1 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 2 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 3 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 4 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 5 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 6 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 7 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 8 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 9 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+
+*** Locus 10 ***
+     54      1
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Printing out site pattern counts
+
+
+        54          1  P
+
+Molgula_te                      A
+Suberites_                      A
+Ornithorhy                      A
+Daphnia_pu                      A
+Leucoraja_                      A
+Acropora_m                      A
+Xenopus_tr                      A
+Flaccisagi                      A
+Mus_muscul                      A
+Euprymna_s                      A
+Priapulus_                      A
+Xenoturbel                      A
+Mytilus_ga                      A
+Anemonia_v                      A
+Homo_sapie                      A
+Capitella_                      A
+Scutigera_                      A
+Symsagitti                      A
+Pomatocero                      A
+Anoplodact                      A
+Ciona_inte                      A
+Rhodnius_p                      A
+Caenorhabd                      A
+Euperipato                      A
+Spadella_c                      A
+Alvinella_                      A
+Hydractini                      A
+Aplysia_ca                      A
+Helobdella                      A
+Patiria_pe                      A
+Trichoplax                      A
+Gryllus_bi                      A
+Petromyzon                      A
+Litopenaeu                      A
+Acanthoscu                      A
+Crassostre                      A
+Eptatretus                      A
+Strongyloc                      A
+Tubifex_tu                      A
+Brachionus                      A
+Amphimedon                      A
+Gallus_gal                      A
+Philodina_                      A
+Ptychodera                      A
+Danio_reri                      A
+Tribolium_                      A
+Saccogloss                      A
+Branchiost                      A
+Nematostel                      A
+Hydra_magn                      A
+Onychiurus                      A
+Ixodes_sca                      A
+Holothuria                      A
+Lottia_gig                      A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Molgula_te                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Suberites_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ornithorhy                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Daphnia_pu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leucoraja_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acropora_m                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenopus_tr                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Flaccisagi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mus_muscul                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euprymna_s                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Priapulus_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Xenoturbel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Mytilus_ga                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anemonia_v                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapie                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Capitella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Scutigera_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Symsagitti                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pomatocero                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Anoplodact                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ciona_inte                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodnius_p                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caenorhabd                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Euperipato                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Spadella_c                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Alvinella_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydractini                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aplysia_ca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Helobdella                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Patiria_pe                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichoplax                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gryllus_bi                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Petromyzon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Litopenaeu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acanthoscu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crassostre                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Eptatretus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Strongyloc                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tubifex_tu                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Brachionus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gallus_gal                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Philodina_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ptychodera                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Danio_reri                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tribolium_                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccogloss                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Branchiost                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nematostel                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra_magn                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Onychiurus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ixodes_sca                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Holothuria                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lottia_gig                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+Time used: 21:12:01
+
+mean of parameters using all iterations
+   5.71650   5.56568   5.09001   4.22960   4.05537   3.84585   3.52760   1.62313   2.49732   1.79213   1.56215   1.21820   0.83387   0.55891   0.22515   1.88304   3.89424   3.48292   3.51065   2.51558   2.21623   2.02271   3.81467   3.59033   3.41998   3.21856   2.93896   2.82565   2.45479   2.23194   2.02700   1.53642   1.36959   2.50300   2.00200   3.71373   0.90967   3.59636   3.33257   2.95041   2.70801   1.98544   2.21443   2.84408   2.68600   2.40819   1.93142   2.40750   4.55008   3.42597   2.17257   1.70449   4.00530   0.05417   0.06487   0.05385   0.04237   0.04621   0.03837   0.05137   0.05143   0.05626   0.07468   0.09246   0.05646   0.08424   0.09597   0.11829   0.06813   0.07745   0.08082   0.07145   0.11832
+
+Species tree for FigTree.  Branch lengths = posterior mean times; 95% CIs = labels
+((((((((1_Molgula_te, 2_Ciona_inte) 62 , ((((((3_Ornithorhy, (4_Mus_muscul, 5_Homo_sapie) 69 ) 68 , 6_Gallus_gal) 67 , 7_Xenopus_tr) 66 , 8_Danio_reri) 65 , 9_Leucoraja_) 64 , (10_Petromyzon, 11_Eptatretus) 70 ) 63 ) 61 , 12_Branchiost) 60 , ((13_Xenoturbel, 14_Symsagitti) 72 , ((15_Patiria_pe, (16_Strongyloc, 17_Holothuria) 75 ) 74 , (18_Ptychodera, 19_Saccogloss) 76 ) 73 ) 71 ) 59 , ((((((((20_Daphnia_pu, (((21_Rhodnius_p, 22_Tribolium_) 87 , 23_Gryllus_bi) 86 , 24_Onychiurus) 85 ) 84 , 25_Litopenaeu) 83 , 26_Scutigera_) 82 , (27_Anoplodact, (28_Acanthoscu, 29_Ixodes_sca) 89 ) 88 ) 81 , 30_Euperipato) 80 , 31_Caenorhabd) 79 , 32_Priapulus_) 78 , ((33_Flaccisagi, 34_Spadella_c) 91 , (((35_Euprymna_s, ((36_Mytilus_ga, 37_Crassostre) 96 , (38_Aplysia_ca, 39_Lottia_gig) 97 ) 95 ) 94 , (((40_Capitella_, 41_Pomatocero) 100 , 42_Alvinella_) 99 , (43_Helobdella, 44_Tubifex_tu) 101 ) 98 ) 93 , (45_Brachionus, 46_Philodina_) 102 ) 92 ) 90 ) 77 ) 58 , ((47_Acropora_m, (48_Anemonia_v, 49_Nematostel) 105 ) 104 , (50_Hydractini, 51_Hydra_magn) 106 ) 103 ) 57 , 52_Trichoplax) 56 , (53_Suberites_, 54_Amphimedon) 107 ) 55 ;
+
+((((((((Molgula_te: 1.623125, Ciona_inte: 1.623125): 1.904474, ((((((Ornithorhy: 0.558914, (Mus_muscul: 0.225151, Homo_sapie: 0.225151): 0.333763): 0.274953, Gallus_gal: 0.833867): 0.384334, Xenopus_tr: 1.218201): 0.343944, Danio_reri: 1.562145): 0.229984, Leucoraja_: 1.792129): 0.705188, (Petromyzon: 1.883039, Eptatretus: 1.883039): 0.614278): 1.030281): 0.318248, Branchiost: 3.845847): 0.209520, ((Xenoturbel: 3.482921, Symsagitti: 3.482921): 0.411314, ((Patiria_pe: 2.515575, (Strongyloc: 2.216231, Holothuria: 2.216231): 0.299344): 0.995074, (Ptychodera: 2.022706, Saccogloss: 2.022706): 1.487943): 0.383586): 0.161131): 0.174232, ((((((((Daphnia_pu: 2.231938, (((Rhodnius_p: 1.369591, Tribolium_: 1.369591): 0.166833, Gryllus_bi: 1.536423): 0.490577, Onychiurus: 2.027000): 0.204938): 0.222851, Litopenaeu: 2.454790): 0.370864, Scutigera_: 2.825653): 0.113306, (Anoplodact: 2.503000, (Acanthoscu: 2.001997, Ixodes_sca: 2.001997): 0.501003): 0.435959): 0.279597, Euperipato: 3.218556): 0.201428, Caenorhabd: 3.419984): 0.170351, Priapulus_: 3.590335): 0.224330, ((Flaccisagi: 0.909673, Spadella_c: 0.909673): 2.804054, (((Euprymna_s: 2.950411, ((Mytilus_ga: 1.985444, Crassostre: 1.985444): 0.722564, (Aplysia_ca: 2.214427, Lottia_gig: 2.214427): 0.493581): 0.242403): 0.382157, (((Capitella_: 2.408185, Pomatocero: 2.408185): 0.277815, Alvinella_: 2.686000): 0.158081, (Helobdella: 1.931423, Tubifex_tu: 1.931423): 0.912658): 0.488487): 0.263791, (Brachionus: 2.407500, Philodina_: 2.407500): 1.188858): 0.117369): 0.100938): 0.414933): 0.860412, ((Acropora_m: 3.425975, (Anemonia_v: 2.172574, Nematostel: 2.172574): 1.253401): 1.124108, (Hydractini: 1.704489, Hydra_magn: 1.704489): 2.845593): 0.539928): 0.475670, Trichoplax: 5.565680): 0.150821, (Suberites_: 4.005298, Amphimedon: 4.005298): 1.711202);
+
+((((((((Molgula_te: 1.623125, Ciona_inte: 1.623125) [&95%HPD={1.37512, 1.89488}]: 1.904474, ((((((Ornithorhy: 0.558914, (Mus_muscul: 0.225151, Homo_sapie: 0.225151) [&95%HPD={0.182258, 0.27094}]: 0.333763) [&95%HPD={0.469446, 0.654796}]: 0.274953, Gallus_gal: 0.833867) [&95%HPD={0.706477, 0.971272}]: 0.384334, Xenopus_tr: 1.218201) [&95%HPD={1.0474, 1.41166}]: 0.343944, Danio_reri: 1.562145) [&95%HPD={1.35537, 1.80446}]: 0.229984, Leucoraja_: 1.792129) [&95%HPD={1.56708, 2.06928}]: 0.705188, (Petromyzon: 1.883039, Eptatretus: 1.883039) [&95%HPD={1.6293, 2.15577}]: 0.614278) [&95%HPD={2.18959, 2.83946}]: 1.030281) [&95%HPD={3.12943, 3.98165}]: 0.318248, Branchiost: 3.845847) [&95%HPD={3.42152, 4.33925}]: 0.209520, ((Xenoturbel: 3.482921, Symsagitti: 3.482921) [&95%HPD={3.0933, 3.94878}]: 0.411314, ((Patiria_pe: 2.515575, (Strongyloc: 2.216231, Holothuria: 2.216231) [&95%HPD={1.92408, 2.53872}]: 0.299344) [&95%HPD={2.19788, 2.86826}]: 0.995074, (Ptychodera: 2.022706, Saccogloss: 2.022706) [&95%HPD={1.71751, 2.33776}]: 1.487943) [&95%HPD={3.12155, 3.96764}]: 0.383586) [&95%HPD={3.46106, 4.38729}]: 0.161131) [&95%HPD={3.61093, 4.56885}]: 0.174232, ((((((((Daphnia_pu: 2.231938, (((Rhodnius_p: 1.369591, Tribolium_: 1.369591) [&95%HPD={1.19111, 1.56948}]: 0.166833, Gryllus_bi: 1.536423) [&95%HPD={1.34234, 1.7579}]: 0.490577, Onychiurus: 2.027000) [&95%HPD={1.77719, 2.30061}]: 0.204938) [&95%HPD={1.96429, 2.53094}]: 0.222851, Litopenaeu: 2.454790) [&95%HPD={2.16651, 2.78234}]: 0.370864, Scutigera_: 2.825653) [&95%HPD={2.49774, 3.19711}]: 0.113306, (Anoplodact: 2.503000, (Acanthoscu: 2.001997, Ixodes_sca: 2.001997) [&95%HPD={1.75662, 2.28844}]: 0.501003) [&95%HPD={2.20329, 2.83842}]: 0.435959) [&95%HPD={2.59921, 3.32202}]: 0.279597, Euperipato: 3.218556) [&95%HPD={2.84784, 3.63286}]: 0.201428, Caenorhabd: 3.419984) [&95%HPD={3.03612, 3.86427}]: 0.170351, Priapulus_: 3.590335) [&95%HPD={3.18889, 4.05437}]: 0.224330, ((Flaccisagi: 0.909673, Spadella_c: 0.909673) [&95%HPD={0.720765, 1.11043}]: 2.804054, (((Euprymna_s: 2.950411, ((Mytilus_ga: 1.985444, Crassostre: 1.985444) [&95%HPD={1.73429, 2.26765}]: 0.722564, (Aplysia_ca: 2.214427, Lottia_gig: 2.214427) [&95%HPD={1.93811, 2.50838}]: 0.493581) [&95%HPD={2.39556, 3.06643}]: 0.242403) [&95%HPD={2.6054, 3.33268}]: 0.382157, (((Capitella_: 2.408185, Pomatocero: 2.408185) [&95%HPD={2.11199, 2.73121}]: 0.277815, Alvinella_: 2.686000) [&95%HPD={2.3826, 3.05034}]: 0.158081, (Helobdella: 1.931423, Tubifex_tu: 1.931423) [&95%HPD={1.68584, 2.20953}]: 0.912658) [&95%HPD={2.51884, 3.2191}]: 0.488487) [&95%HPD={2.9671, 3.77663}]: 0.263791, (Brachionus: 2.407500, Philodina_: 2.407500) [&95%HPD={2.09744, 2.74456}]: 1.188858) [&95%HPD={3.19845, 4.06291}]: 0.117369) [&95%HPD={3.30459, 4.19588}]: 0.100938) [&95%HPD={3.38903, 4.30169}]: 0.414933) [&95%HPD={3.77449, 4.77069}]: 0.860412, ((Acropora_m: 3.425975, (Anemonia_v: 2.172574, Nematostel: 2.172574) [&95%HPD={1.85869, 2.5326}]: 1.253401) [&95%HPD={3.00673, 3.88751}]: 1.124108, (Hydractini: 1.704489, Hydra_magn: 1.704489) [&95%HPD={1.3859, 2.02029}]: 2.845593) [&95%HPD={4.06576, 5.13632}]: 0.539928) [&95%HPD={4.5354, 5.71143}]: 0.475670, Trichoplax: 5.565680) [&95%HPD={4.98662, 6.25382}]: 0.150821, (Suberites_: 4.005298, Amphimedon: 4.005298) [&95%HPD={3.47137, 4.61258}]: 1.711202) [&95%HPD={5.23131, 6.39637}];
+
+
+Posterior mean (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n55          5.7198 ( 5.3011,  6.5128) ( 5.2313,  6.3964)  1.1651 (Jnode 106)
+t_n56          5.5687 ( 5.0536,  6.3638) ( 4.9866,  6.2538)  1.2672 (Jnode 105)
+t_n57          5.0927 ( 4.6121,  5.8252) ( 4.5354,  5.7114)  1.1760 (Jnode 104)
+t_n58          4.2318 ( 3.8142,  4.8508) ( 3.7745,  4.7707)  0.9962 (Jnode 103)
+t_n59          4.0574 ( 3.6549,  4.6535) ( 3.6109,  4.5688)  0.9579 (Jnode 102)
+t_n60          3.8476 ( 3.4651,  4.4144) ( 3.4215,  4.3392)  0.9177 (Jnode 101)
+t_n61          3.5293 ( 3.1738,  4.0480) ( 3.1294,  3.9816)  0.8522 (Jnode 100)
+t_n62          1.6238 ( 1.3857,  1.9120) ( 1.3751,  1.8949)  0.5198 (Jnode 99)
+t_n63          2.4986 ( 2.2199,  2.8817) ( 2.1896,  2.8395)  0.6499 (Jnode 98)
+t_n64          1.7932 ( 1.5747,  2.0861) ( 1.5671,  2.0693)  0.5022 (Jnode 97)
+t_n65          1.5630 ( 1.3663,  1.8240) ( 1.3554,  1.8045)  0.4491 (Jnode 96)
+t_n66          1.2189 ( 1.0571,  1.4296) ( 1.0474,  1.4117)  0.3643 (Jnode 95)
+t_n67          0.8344 ( 0.7155,  0.9852) ( 0.7065,  0.9713)  0.2648 (Jnode 94)
+t_n68          0.5593 ( 0.4752,  0.6651) ( 0.4694,  0.6548)  0.1854 (Jnode 93)
+t_n69          0.2254 ( 0.1852,  0.2750) ( 0.1823,  0.2709)  0.0887 (Jnode 92)
+t_n70          1.8839 ( 1.6525,  2.1877) ( 1.6293,  2.1558)  0.5265 (Jnode 91)
+t_n71          3.8963 ( 3.5092,  4.4682) ( 3.4611,  4.3873)  0.9262 (Jnode 90)
+t_n72          3.4846 ( 3.1252,  3.9980) ( 3.0933,  3.9488)  0.8555 (Jnode 89)
+t_n73          3.5123 ( 3.1541,  4.0322) ( 3.1216,  3.9676)  0.8461 (Jnode 88)
+t_n74          2.5173 ( 2.2276,  2.9158) ( 2.1979,  2.8683)  0.6704 (Jnode 87)
+t_n75          2.2176 ( 1.9493,  2.5758) ( 1.9241,  2.5387)  0.6146 (Jnode 86)
+t_n76          2.0238 ( 1.7426,  2.3743) ( 1.7175,  2.3378)  0.6203 (Jnode 85)
+t_n77          3.8165 ( 3.4352,  4.3758) ( 3.3890,  4.3017)  0.9127 (Jnode 84)
+t_n78          3.5923 ( 3.2300,  4.1184) ( 3.1889,  4.0544)  0.8655 (Jnode 83)
+t_n79          3.4221 ( 3.0762,  3.9292) ( 3.0361,  3.8643)  0.8281 (Jnode 82)
+t_n80          3.2205 ( 2.8908,  3.6939) ( 2.8478,  3.6329)  0.7850 (Jnode 81)
+t_n81          2.9407 ( 2.6360,  3.3733) ( 2.5992,  3.3220)  0.7228 (Jnode 80)
+t_n82          2.8274 ( 2.5307,  3.2450) ( 2.4977,  3.1971)  0.6994 (Jnode 79)
+t_n83          2.4562 ( 2.1932,  2.8252) ( 2.1665,  2.7823)  0.6158 (Jnode 78)
+t_n84          2.2332 ( 1.9884,  2.5719) ( 1.9643,  2.5309)  0.5666 (Jnode 77)
+t_n85          2.0283 ( 1.8030,  2.3377) ( 1.7772,  2.3006)  0.5234 (Jnode 76)
+t_n86          1.5372 ( 1.3555,  1.7794) ( 1.3423,  1.7579)  0.4156 (Jnode 75)
+t_n87          1.3702 ( 1.2031,  1.5899) ( 1.1911,  1.5695)  0.3784 (Jnode 74)
+t_n88          2.5043 ( 2.2329,  2.8845) ( 2.2033,  2.8384)  0.6351 (Jnode 73)
+t_n89          2.0033 ( 1.7741,  2.3188) ( 1.7566,  2.2884)  0.5318 (Jnode 72)
+t_n90          3.7156 ( 3.3458,  4.2615) ( 3.3046,  4.1959)  0.8913 (Jnode 71)
+t_n91          0.9102 ( 0.7292,  1.1207) ( 0.7208,  1.1104)  0.3897 (Jnode 70)
+t_n92          3.5981 ( 3.2369,  4.1254) ( 3.1985,  4.0629)  0.8645 (Jnode 69)
+t_n93          3.3342 ( 2.9975,  3.8260) ( 2.9671,  3.7766)  0.8095 (Jnode 68)
+t_n94          2.9518 ( 2.6455,  3.3935) ( 2.6054,  3.3327)  0.7273 (Jnode 67)
+t_n95          2.7092 ( 2.4234,  3.1157) ( 2.3956,  3.0664)  0.6709 (Jnode 66)
+t_n96          1.9865 ( 1.7545,  2.2989) ( 1.7343,  2.2677)  0.5334 (Jnode 65)
+t_n97          2.2152 ( 1.9677,  2.5570) ( 1.9381,  2.5084)  0.5703 (Jnode 64)
+t_n98          2.8454 ( 2.5503,  3.2675) ( 2.5188,  3.2191)  0.7003 (Jnode 63)
+t_n99          2.6875 ( 2.4069,  3.0909) ( 2.3826,  3.0503)  0.6677 (Jnode 62)
+t_n100         2.4094 ( 2.1456,  2.7781) ( 2.1120,  2.7312)  0.6192 (Jnode 61)
+t_n101         1.9326 ( 1.7038,  2.2397) ( 1.6858,  2.2095)  0.5237 (Jnode 60)
+t_n102         2.4088 ( 2.1269,  2.7905) ( 2.0974,  2.7446)  0.6471 (Jnode 59)
+t_n103         4.5524 ( 4.1100,  5.2120) ( 4.0658,  5.1363)  1.0706 (Jnode 58)
+t_n104         3.4274 ( 3.0485,  3.9440) ( 3.0067,  3.8875)  0.8808 (Jnode 57)
+t_n105         2.1738 ( 1.8687,  2.5514) ( 1.8587,  2.5326)  0.6739 (Jnode 56)
+t_n106         1.7050 ( 1.4137,  2.0522) ( 1.3859,  2.0203)  0.6344 (Jnode 55)
+t_n107         4.0069 ( 3.5308,  4.7068) ( 3.4714,  4.6126)  1.1412 (Jnode 54)
+mu1            0.0542 ( 0.0371,  0.0768) ( 0.0353,  0.0744)  0.0392
+mu2            0.0649 ( 0.0467,  0.0867) ( 0.0454,  0.0849)  0.0395
+mu3            0.0538 ( 0.0374,  0.0751) ( 0.0358,  0.0729)  0.0371
+mu4            0.0424 ( 0.0286,  0.0602) ( 0.0276,  0.0586)  0.0309
+mu5            0.0462 ( 0.0307,  0.0670) ( 0.0295,  0.0652)  0.0357
+mu6            0.0383 ( 0.0273,  0.0521) ( 0.0267,  0.0513)  0.0246
+mu7            0.0513 ( 0.0353,  0.0707) ( 0.0342,  0.0691)  0.0349
+mu8            0.0513 ( 0.0356,  0.0711) ( 0.0347,  0.0697)  0.0350
+mu9            0.0562 ( 0.0390,  0.0772) ( 0.0374,  0.0752)  0.0378
+mu10           0.0746 ( 0.0491,  0.1079) ( 0.0472,  0.1049)  0.0577
+sigma2_1       0.0924 ( 0.0613,  0.1351) ( 0.0590,  0.1318)  0.0728
+sigma2_2       0.0565 ( 0.0363,  0.0848) ( 0.0342,  0.0809)  0.0467
+sigma2_3       0.0841 ( 0.0559,  0.1227) ( 0.0531,  0.1186)  0.0655
+sigma2_4       0.0960 ( 0.0632,  0.1402) ( 0.0603,  0.1352)  0.0749
+sigma2_5       0.1182 ( 0.0786,  0.1709) ( 0.0749,  0.1655)  0.0906
+sigma2_6       0.0681 ( 0.0447,  0.1005) ( 0.0427,  0.0969)  0.0542
+sigma2_7       0.0772 ( 0.0510,  0.1135) ( 0.0488,  0.1101)  0.0612
+sigma2_8       0.0808 ( 0.0542,  0.1164) ( 0.0520,  0.1130)  0.0611
+sigma2_9       0.0716 ( 0.0481,  0.1041) ( 0.0461,  0.1007)  0.0545
+sigma2_10      0.1180 ( 0.0787,  0.1707) ( 0.0758,  0.1657)  0.0900
+lnL         -573.6873 (-617.5550, -531.1620) (-616.6820, -530.5370) 86.1450

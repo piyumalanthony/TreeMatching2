@@ -1,0 +1,450 @@
+MCMCTREE (paml version 4.10.7, June 2023) alignment_102_taxa.phy.dummyAln.txt
+
+
+*** Locus 1 ***
+    102      1
+
+Oryza_sativa                    A
+Crenynpffa                      A
+Chlamydia_trachomatis           A
+Escherichia_coli                A
+Elphidium                       A
+Ar13                            A
+Candidatus                      A
+Verrucomicrobium                A
+Pyrococcus_furiosus             A
+Parvarchaeum_acidophilus        A
+Chlorobium                      A
+Cenarchaeum_symbiosum           A
+Saccharomyces_cerevisiae        A
+Methanomassiliicoccus_luminyensis  A
+Chthonomonas                    A
+Ar15                            A
+Leishmania_major                A
+Kosmotoga                       A
+Aquifex                         A
+Lentisphaera                    A
+Gemmatimonas                    A
+Caldithrix                      A
+Jonquetella                     A
+Volvox                          A
+Nanoarchaeum                    A
+Haloarcula_marismortui          A
+Cylindrosperopsis               A
+Hydra                           A
+Caldiarchaeum_subterraneum      A
+Chondrus                        A
+Dictyoglomus                    A
+Caldivirga_maquilingensis       A
+Treponema_pallidum              A
+Rhodopirellula_baltica          A
+Lokiarchaeum                    A
+Bodo                            A
+Chlorogloeopsis                 A
+Pyrobaculum_aerophilum          A
+Aeropyrum_pernix                A
+Amphimedon                      A
+Acidobacterium                  A
+Ar6                             A
+Chlamydomonas                   A
+Oscillochloris                  A
+Loki2                           A
+Phytophthora_ramorum            A
+Giardia_lamblia                 A
+Thalassiosira_pseudonana        A
+Ignicoccus_hospitalis           A
+Polysphondylium                 A
+Microgenomates                  A
+Methanococcus_jannaschii        A
+Limulus                         A
+Thermofilum_pendens             A
+Clostridium_acetobutylicum      A
+The09                           A
+Trichomonas_vaginalis           A
+Loki3                           A
+Nanosalina                      A
+Elusimicrobium                  A
+Rickettsia                      A
+Micrarchaeum_acidiphilum        A
+DUSEL4                          A
+Nitrosoarchaeum_limnia          A
+Homo_sapiens                    A
+Staphylothermus_marinus         A
+Cyanophora                      A
+DUSEL3                          A
+Latescibacteria                 A
+Arabidopsis_thaliana            A
+Cyanidioschyzon                 A
+Tetrahymena                     A
+Archaeoglobus_fulgidus          A
+Agaricus                        A
+Thermodesulfatator              A
+Korarchaeum_cryptofilum         A
+Caldisericum                    A
+Methanothermobacter_thermautotro  A
+Thermoplasma_volcanium          A
+Reticulomyxa                    A
+Methanosarcina_mazei            A
+Actinomadura                    A
+Desulfurispirillum              A
+Galdieria                       A
+Paramecium                      A
+Rhodopseudomonas_palustris      A
+Gloeobacter                     A
+Synechocystis_sp._PCC6803       A
+Physcomitrella                  A
+Hyperthermus_butylicus          A
+Parcubacteria                   A
+Nanosalinarum                   A
+Sulfolobus_solfataricus         A
+Thermodesulfovibrio             A
+Nitrosopumilus_maritimus        A
+Ar5                             A
+Dictyostelium_discoideum        A
+Ectocarpus                      A
+Campylobacter_jejuni            A
+Batrachochytrium                A
+Methanopyrus_kandleri           A
+Fibrobacter                     A
+
+
+
+Printing out site pattern counts
+
+
+       102          1  P
+
+Oryza_sativa                    A
+Crenynpffa                      A
+Chlamydia_trachomatis           A
+Escherichia_coli                A
+Elphidium                       A
+Ar13                            A
+Candidatus                      A
+Verrucomicrobium                A
+Pyrococcus_furiosus             A
+Parvarchaeum_acidophilus        A
+Chlorobium                      A
+Cenarchaeum_symbiosum           A
+Saccharomyces_cerevisiae        A
+Methanomassiliicoccus_luminyensis  A
+Chthonomonas                    A
+Ar15                            A
+Leishmania_major                A
+Kosmotoga                       A
+Aquifex                         A
+Lentisphaera                    A
+Gemmatimonas                    A
+Caldithrix                      A
+Jonquetella                     A
+Volvox                          A
+Nanoarchaeum                    A
+Haloarcula_marismortui          A
+Cylindrosperopsis               A
+Hydra                           A
+Caldiarchaeum_subterraneum      A
+Chondrus                        A
+Dictyoglomus                    A
+Caldivirga_maquilingensis       A
+Treponema_pallidum              A
+Rhodopirellula_baltica          A
+Lokiarchaeum                    A
+Bodo                            A
+Chlorogloeopsis                 A
+Pyrobaculum_aerophilum          A
+Aeropyrum_pernix                A
+Amphimedon                      A
+Acidobacterium                  A
+Ar6                             A
+Chlamydomonas                   A
+Oscillochloris                  A
+Loki2                           A
+Phytophthora_ramorum            A
+Giardia_lamblia                 A
+Thalassiosira_pseudonana        A
+Ignicoccus_hospitalis           A
+Polysphondylium                 A
+Microgenomates                  A
+Methanococcus_jannaschii        A
+Limulus                         A
+Thermofilum_pendens             A
+Clostridium_acetobutylicum      A
+The09                           A
+Trichomonas_vaginalis           A
+Loki3                           A
+Nanosalina                      A
+Elusimicrobium                  A
+Rickettsia                      A
+Micrarchaeum_acidiphilum        A
+DUSEL4                          A
+Nitrosoarchaeum_limnia          A
+Homo_sapiens                    A
+Staphylothermus_marinus         A
+Cyanophora                      A
+DUSEL3                          A
+Latescibacteria                 A
+Arabidopsis_thaliana            A
+Cyanidioschyzon                 A
+Tetrahymena                     A
+Archaeoglobus_fulgidus          A
+Agaricus                        A
+Thermodesulfatator              A
+Korarchaeum_cryptofilum         A
+Caldisericum                    A
+Methanothermobacter_thermautotro  A
+Thermoplasma_volcanium          A
+Reticulomyxa                    A
+Methanosarcina_mazei            A
+Actinomadura                    A
+Desulfurispirillum              A
+Galdieria                       A
+Paramecium                      A
+Rhodopseudomonas_palustris      A
+Gloeobacter                     A
+Synechocystis_sp._PCC6803       A
+Physcomitrella                  A
+Hyperthermus_butylicus          A
+Parcubacteria                   A
+Nanosalinarum                   A
+Sulfolobus_solfataricus         A
+Thermodesulfovibrio             A
+Nitrosopumilus_maritimus        A
+Ar5                             A
+Dictyostelium_discoideum        A
+Ectocarpus                      A
+Campylobacter_jejuni            A
+Batrachochytrium                A
+Methanopyrus_kandleri           A
+Fibrobacter                     A
+
+
+
+Frequencies..
+                                    T      C      A      G
+Oryza_sativa                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Crenynpffa                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chlamydia_trachomatis          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Escherichia_coli               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Elphidium                      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ar13                           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Candidatus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Verrucomicrobium               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pyrococcus_furiosus            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Parvarchaeum_acidophilus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chlorobium                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Cenarchaeum_symbiosum          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Saccharomyces_cerevisiae       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Methanomassiliicoccus_luminyensis 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chthonomonas                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ar15                           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Leishmania_major               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Kosmotoga                      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aquifex                        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lentisphaera                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gemmatimonas                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caldithrix                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Jonquetella                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Volvox                         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nanoarchaeum                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Haloarcula_marismortui         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Cylindrosperopsis              0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hydra                          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caldiarchaeum_subterraneum     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chondrus                       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Dictyoglomus                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caldivirga_maquilingensis      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Treponema_pallidum             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodopirellula_baltica         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Lokiarchaeum                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Bodo                           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chlorogloeopsis                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Pyrobaculum_aerophilum         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Aeropyrum_pernix               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Amphimedon                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Acidobacterium                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ar6                            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Chlamydomonas                  0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Oscillochloris                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Loki2                          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Phytophthora_ramorum           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Giardia_lamblia                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Thalassiosira_pseudonana       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ignicoccus_hospitalis          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Polysphondylium                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Microgenomates                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Methanococcus_jannaschii       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Limulus                        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Thermofilum_pendens            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Clostridium_acetobutylicum     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+The09                          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Trichomonas_vaginalis          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Loki3                          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nanosalina                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Elusimicrobium                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rickettsia                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Micrarchaeum_acidiphilum       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+DUSEL4                         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nitrosoarchaeum_limnia         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Homo_sapiens                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Staphylothermus_marinus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Cyanophora                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+DUSEL3                         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Latescibacteria                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Arabidopsis_thaliana           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Cyanidioschyzon                0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Tetrahymena                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Archaeoglobus_fulgidus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Agaricus                       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Thermodesulfatator             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Korarchaeum_cryptofilum        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Caldisericum                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Methanothermobacter_thermautotro 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Thermoplasma_volcanium         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Reticulomyxa                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Methanosarcina_mazei           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Actinomadura                   0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Desulfurispirillum             0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Galdieria                      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Paramecium                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Rhodopseudomonas_palustris     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Gloeobacter                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Synechocystis_sp._PCC6803      0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Physcomitrella                 0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Hyperthermus_butylicus         0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Parcubacteria                  0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nanosalinarum                  0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Sulfolobus_solfataricus        0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Thermodesulfovibrio            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Nitrosopumilus_maritimus       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ar5                            0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Dictyostelium_discoideum       0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Ectocarpus                     0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Campylobacter_jejuni           0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Batrachochytrium               0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Methanopyrus_kandleri          0.00000 0.00000 1.00000 0.00000 GC = 0.000
+Fibrobacter                    0.00000 0.00000 1.00000 0.00000 GC = 0.000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.00000 1.00000 0.00000
+
+# constant sites:      1 (100.00%)
+Time used: 22:06:44
+
+mean of parameters using all iterations
+  44.54622  30.32868  29.35366  26.69094  25.97426  24.60724  12.44253  12.33291  11.96848  11.48640  10.90796   7.31911   4.36662   2.51815   2.04527   8.28488   7.04174  11.45834   7.11382  10.98706   8.77808   7.13866   5.95421  10.68925  10.06488   2.78616  11.84315  10.69602   8.30307   6.65354   7.28852   6.63887   5.53822   5.46466  22.99602  18.72533  24.83641  22.94345  21.54013  17.90345   9.64844  17.22493  15.15755  13.48599  11.43149  20.91551  19.42581   5.30445   2.37262  27.69908  26.00208  23.52446  22.86470  24.85296  17.27042  20.86585  16.83365  29.65912  28.13684  25.79162  24.38326  20.87132  13.90666  18.57259  25.33261   8.33648  25.50754  35.47617  34.71288  33.99408  32.66978  30.24950  28.89951  27.90893  26.73416  23.91855  20.77250  17.57183  24.23179  22.78612  18.16494  20.60950  26.14319  24.10463  22.29081  19.33147  13.16408  24.65625  22.16206  19.59208  28.78137  27.27565  25.86770  22.99901  16.97752  25.81765  17.84634  14.36632   5.66399  34.41161  30.11583   0.15482   0.01868
+
+Species tree for FigTree.  Branch lengths = posterior mean times; 95% CIs = labels
+((((((((((((((1_Oryza_sativa, 2_Arabidopsis_thaliana) 116 , 3_Physcomitrella) 115 , (4_Volvox, 5_Chlamydomonas) 117 ) 114 , ((6_Chondrus, 7_Cyanidioschyzon) 119 , 8_Galdieria) 118 ) 113 , 9_Cyanophora) 112 , ((10_Elphidium, 11_Reticulomyxa) 121 , ((12_Phytophthora_ramorum, (13_Thalassiosira_pseudonana, 14_Ectocarpus) 124 ) 123 , (15_Tetrahymena, 16_Paramecium) 125 ) 122 ) 120 ) 111 , (((17_Leishmania_major, 18_Bodo) 128 , 19_Trichomonas_vaginalis) 127 , 20_Giardia_lamblia) 126 ) 110 , ((((21_Saccharomyces_cerevisiae, 22_Agaricus) 132 , 23_Batrachochytrium) 131 , ((24_Hydra, (25_Limulus, 26_Homo_sapiens) 135 ) 134 , 27_Amphimedon) 133 ) 130 , (28_Polysphondylium, 29_Dictyostelium_discoideum) 136 ) 129 ) 109 , ((30_Lokiarchaeum, 31_Loki2) 138 , 32_Loki3) 137 ) 108 , ((33_Crenynpffa, (((34_Caldivirga_maquilingensis, 35_Pyrobaculum_aerophilum) 143 , 36_Thermofilum_pendens) 142 , ((((37_Aeropyrum_pernix, 38_Hyperthermus_butylicus) 147 , 39_Ignicoccus_hospitalis) 146 , 40_Staphylothermus_marinus) 145 , 41_Sulfolobus_solfataricus) 144 ) 141 ) 140 , (((42_Cenarchaeum_symbiosum, (43_Nitrosoarchaeum_limnia, 44_Nitrosopumilus_maritimus) 151 ) 150 , 45_The09) 149 , 46_Caldiarchaeum_subterraneum) 148 ) 139 ) 107 , 47_Korarchaeum_cryptofilum) 106 , (((48_Pyrococcus_furiosus, 49_Methanococcus_jannaschii) 154 , (50_Methanothermobacter_thermautotro, 51_Methanopyrus_kandleri) 155 ) 153 , ((52_Methanomassiliicoccus_luminyensis, 53_Thermoplasma_volcanium) 157 , ((54_Haloarcula_marismortui, 55_Methanosarcina_mazei) 159 , 56_Archaeoglobus_fulgidus) 158 ) 156 ) 152 ) 105 , ((((((57_Ar13, 58_Ar6) 165 , (59_Ar15, 60_DUSEL4) 166 ) 164 , 61_Parvarchaeum_acidophilus) 163 , 62_Nanoarchaeum) 162 , ((63_Nanosalina, 64_Nanosalinarum) 168 , 65_Ar5) 167 ) 161 , (66_Micrarchaeum_acidiphilum, 67_DUSEL3) 169 ) 160 ) 104 , ((((((((((68_Chlamydia_trachomatis, (69_Verrucomicrobium, 70_Lentisphaera) 180 ) 179 , 71_Rhodopirellula_baltica) 178 , (((72_Chlorobium, 73_Caldithrix) 183 , (74_Gemmatimonas, 75_Latescibacteria) 184 ) 182 , 76_Fibrobacter) 181 ) 177 , ((((77_Escherichia_coli, (78_Rickettsia, 79_Rhodopseudomonas_palustris) 189 ) 188 , 80_Campylobacter_jejuni) 187 , 81_Desulfurispirillum) 186 , (82_Aquifex, (83_Acidobacterium, (84_Thermodesulfatator, 85_Thermodesulfovibrio) 192 ) 191 ) 190 ) 185 ) 176 , 86_Elusimicrobium) 175 , (((87_Chthonomonas, (88_Oscillochloris, (89_Microgenomates, 90_Parcubacteria) 197 ) 196 ) 195 , 91_Actinomadura) 194 , (92_Treponema_pallidum, 93_Clostridium_acetobutylicum) 198 ) 193 ) 174 , (((94_Cylindrosperopsis, 95_Chlorogloeopsis) 201 , 96_Synechocystis_sp._PCC6803) 200 , 97_Gloeobacter) 199 ) 173 , 98_Candidatus) 172 , 99_Jonquetella) 171 , (100_Kosmotoga, (101_Dictyoglomus, 102_Caldisericum) 203 ) 202 ) 170 ) 103 ;
+
+((((((((((((((Oryza_sativa: 2.518154, Arabidopsis_thaliana: 2.518154): 1.848471, Physcomitrella: 4.366625): 2.952487, (Volvox: 2.045265, Chlamydomonas: 2.045265): 5.273847): 3.588849, ((Chondrus: 7.041736, Cyanidioschyzon: 7.041736): 1.243146, Galdieria: 8.284882): 2.623079): 0.578439, Cyanophora: 11.486400): 0.482077, ((Elphidium: 7.113820, Reticulomyxa: 7.113820): 4.344524, ((Phytophthora_ramorum: 8.778076, (Thalassiosira_pseudonana: 7.138665, Ectocarpus: 7.138665): 1.639411): 2.208984, (Tetrahymena: 5.954214, Paramecium: 5.954214): 5.032846): 0.471284): 0.510133): 0.364436, (((Leishmania_major: 2.786161, Bodo: 2.786161): 7.278723, Trichomonas_vaginalis: 10.064884): 0.624362, Giardia_lamblia: 10.689246): 1.643666): 0.109620, ((((Saccharomyces_cerevisiae: 6.653538, Agaricus: 6.653538): 1.649535, Batrachochytrium: 8.303073): 2.392946, ((Hydra: 6.638873, (Limulus: 5.538217, Homo_sapiens: 5.538217): 1.100656): 0.649649, Amphimedon: 7.288522): 3.407497): 1.147132, (Polysphondylium: 5.464657, Dictyostelium_discoideum: 5.464657): 6.378494): 0.599381): 12.164706, ((Lokiarchaeum: 18.725334, Loki2: 18.725334): 4.270681, Loki3: 22.996015): 1.611224): 1.367020, ((Crenynpffa: 22.943449, (((Caldivirga_maquilingensis: 9.648444, Pyrobaculum_aerophilum: 9.648444): 8.255010, Thermofilum_pendens: 17.903454): 3.636677, ((((Aeropyrum_pernix: 11.431493, Hyperthermus_butylicus: 11.431493): 2.054502, Ignicoccus_hospitalis: 13.485994): 1.671557, Staphylothermus_marinus: 15.157551): 2.067383, Sulfolobus_solfataricus: 17.224934): 4.315197): 1.403318): 1.892963, (((Cenarchaeum_symbiosum: 5.304448, (Nitrosoarchaeum_limnia: 2.372621, Nitrosopumilus_maritimus: 2.372621): 2.931827): 14.121358, The09: 19.425807): 1.489705, Caldiarchaeum_subterraneum: 20.915512): 3.920900): 1.137847): 0.716685, Korarchaeum_cryptofilum: 26.690944): 2.662720, (((Pyrococcus_furiosus: 23.524464, Methanococcus_jannaschii: 23.524464): 2.477614, (Methanothermobacter_thermautotro: 22.864695, Methanopyrus_kandleri: 22.864695): 3.137383): 1.697001, ((Methanomassiliicoccus_luminyensis: 17.270424, Thermoplasma_volcanium: 17.270424): 7.582532, ((Haloarcula_marismortui: 16.833650, Methanosarcina_mazei: 16.833650): 4.032200, Archaeoglobus_fulgidus: 20.865850): 3.987106): 2.846123): 1.654585): 0.975014, ((((((Ar13: 13.906659, Ar6: 13.906659): 6.964666, (Ar15: 18.572586, DUSEL4: 18.572586): 2.298739): 3.511936, Parvarchaeum_acidophilus: 24.383261): 1.408360, Nanoarchaeum: 25.791621): 2.345220, ((Nanosalina: 8.336480, Nanosalinarum: 8.336480): 16.996131, Ar5: 25.332612): 2.804229): 1.522278, (Micrarchaeum_acidiphilum: 25.507543, DUSEL3: 25.507543): 4.151575): 0.669560): 14.217538, ((((((((((Chlamydia_trachomatis: 20.772501, (Verrucomicrobium: 17.571830, Lentisphaera: 17.571830): 3.200671): 3.146046, Rhodopirellula_baltica: 23.918546): 2.815614, (((Chlorobium: 18.164944, Caldithrix: 18.164944): 4.621177, (Gemmatimonas: 20.609496, Latescibacteria: 20.609496): 2.176625): 1.445671, Fibrobacter: 24.231792): 2.502369): 1.174772, ((((Escherichia_coli: 19.331469, (Rickettsia: 13.164078, Rhodopseudomonas_palustris: 13.164078): 6.167391): 2.959340, Campylobacter_jejuni: 22.290810): 1.813822, Desulfurispirillum: 24.104631): 2.038556, (Aquifex: 24.656254, (Acidobacterium: 22.162058, (Thermodesulfatator: 19.592078, Thermodesulfovibrio: 19.592078): 2.569981): 2.494196): 1.486933): 1.765745): 0.990577, Elusimicrobium: 28.899509): 1.349991, (((Chthonomonas: 25.867697, (Oscillochloris: 22.999015, (Microgenomates: 16.977518, Parcubacteria: 16.977518): 6.021497): 2.868682): 1.407950, Actinomadura: 27.275647): 1.505727, (Treponema_pallidum: 25.817650, Clostridium_acetobutylicum: 25.817650): 2.963724): 1.468125): 2.420280, (((Cylindrosperopsis: 5.663990, Chlorogloeopsis: 5.663990): 8.702329, Synechocystis_sp._PCC6803: 14.366319): 3.480025, Gloeobacter: 17.846344): 14.823436): 1.324302, Candidatus: 33.994082): 0.718795, Jonquetella: 34.712877): 0.763297, (Kosmotoga: 34.411607, (Dictyoglomus: 30.115829, Caldisericum: 30.115829): 4.295779): 1.064566): 9.070043);
+
+((((((((((((((Oryza_sativa: 2.518154, Arabidopsis_thaliana: 2.518154) [&95%HPD={2.34796, 2.718}]: 1.848471, Physcomitrella: 4.366625) [&95%HPD={4.204, 4.69116}]: 2.952487, (Volvox: 2.045265, Chlamydomonas: 2.045265) [&95%HPD={1.32397, 2.85784}]: 5.273847) [&95%HPD={6.35618, 8.4134}]: 3.588849, ((Chondrus: 7.041736, Cyanidioschyzon: 7.041736) [&95%HPD={5.81627, 8.24451}]: 1.243146, Galdieria: 8.284882) [&95%HPD={7.08677, 9.60793}]: 2.623079) [&95%HPD={9.72099, 12.3257}]: 0.578439, Cyanophora: 11.486400) [&95%HPD={10.2312, 13.0149}]: 0.482077, ((Elphidium: 7.113820, Reticulomyxa: 7.113820) [&95%HPD={5.70144, 8.68156}]: 4.344524, ((Phytophthora_ramorum: 8.778076, (Thalassiosira_pseudonana: 7.138665, Ectocarpus: 7.138665) [&95%HPD={5.93353, 8.38221}]: 1.639411) [&95%HPD={7.58645, 10.1391}]: 2.208984, (Tetrahymena: 5.954214, Paramecium: 5.954214) [&95%HPD={4.44943, 7.53127}]: 5.032846) [&95%HPD={9.82197, 12.5185}]: 0.471284) [&95%HPD={10.2011, 12.9984}]: 0.510133) [&95%HPD={10.703, 13.6063}]: 0.364436, (((Leishmania_major: 2.786161, Bodo: 2.786161) [&95%HPD={1.6375, 3.90484}]: 7.278723, Trichomonas_vaginalis: 10.064884) [&95%HPD={8.77721, 11.5942}]: 0.624362, Giardia_lamblia: 10.689246) [&95%HPD={9.39894, 12.2557}]: 1.643666) [&95%HPD={11.0114, 14.0399}]: 0.109620, ((((Saccharomyces_cerevisiae: 6.653538, Agaricus: 6.653538) [&95%HPD={5.3381, 7.96653}]: 1.649535, Batrachochytrium: 8.303073) [&95%HPD={6.96822, 9.65986}]: 2.392946, ((Hydra: 6.638873, (Limulus: 5.538217, Homo_sapiens: 5.538217) [&95%HPD={4.57417, 6.59198}]: 1.100656) [&95%HPD={5.58007, 7.68972}]: 0.649649, Amphimedon: 7.288522) [&95%HPD={6.25605, 8.3774}]: 3.407497) [&95%HPD={9.39811, 12.1536}]: 1.147132, (Polysphondylium: 5.464657, Dictyostelium_discoideum: 5.464657) [&95%HPD={3.95376, 7.31675}]: 6.378494) [&95%HPD={10.5161, 13.4654}]: 0.599381) [&95%HPD={11.0961, 14.1436}]: 12.164706, ((Lokiarchaeum: 18.725334, Loki2: 18.725334) [&95%HPD={15.5418, 21.8375}]: 4.270681, Loki3: 22.996015) [&95%HPD={20.3638, 25.5751}]: 1.611224) [&95%HPD={21.9574, 27.1196}]: 1.367020, ((Crenynpffa: 22.943449, (((Caldivirga_maquilingensis: 9.648444, Pyrobaculum_aerophilum: 9.648444) [&95%HPD={6.39175, 12.9031}]: 8.255010, Thermofilum_pendens: 17.903454) [&95%HPD={14.7301, 20.795}]: 3.636677, ((((Aeropyrum_pernix: 11.431493, Hyperthermus_butylicus: 11.431493) [&95%HPD={8.38613, 14.1955}]: 2.054502, Ignicoccus_hospitalis: 13.485994) [&95%HPD={10.3851, 16.5177}]: 1.671557, Staphylothermus_marinus: 15.157551) [&95%HPD={12.0371, 18.3648}]: 2.067383, Sulfolobus_solfataricus: 17.224934) [&95%HPD={14.0282, 20.3101}]: 4.315197) [&95%HPD={18.7746, 24.1083}]: 1.403318) [&95%HPD={20.3303, 25.6012}]: 1.892963, (((Cenarchaeum_symbiosum: 5.304448, (Nitrosoarchaeum_limnia: 2.372621, Nitrosopumilus_maritimus: 2.372621) [&95%HPD={0.910334, 3.76393}]: 2.931827) [&95%HPD={2.48044, 8.02964}]: 14.121358, The09: 19.425807) [&95%HPD={16.4588, 22.3146}]: 1.489705, Caldiarchaeum_subterraneum: 20.915512) [&95%HPD={18.083, 23.6479}]: 3.920900) [&95%HPD={22.0955, 27.3528}]: 1.137847) [&95%HPD={23.1446, 28.4944}]: 0.716685, Korarchaeum_cryptofilum: 26.690944) [&95%HPD={23.8802, 29.3196}]: 2.662720, (((Pyrococcus_furiosus: 23.524464, Methanococcus_jannaschii: 23.524464) [&95%HPD={20.4065, 26.8213}]: 2.477614, (Methanothermobacter_thermautotro: 22.864695, Methanopyrus_kandleri: 22.864695) [&95%HPD={19.5544, 26.1755}]: 3.137383) [&95%HPD={23.0451, 28.8236}]: 1.697001, ((Methanomassiliicoccus_luminyensis: 17.270424, Thermoplasma_volcanium: 17.270424) [&95%HPD={12.2842, 21.4217}]: 7.582532, ((Haloarcula_marismortui: 16.833650, Methanosarcina_mazei: 16.833650) [&95%HPD={12.7894, 20.8511}]: 4.032200, Archaeoglobus_fulgidus: 20.865850) [&95%HPD={17.3271, 24.3515}]: 3.987106) [&95%HPD={21.7003, 27.7426}]: 2.846123) [&95%HPD={24.6947, 30.2914}]: 1.654585) [&95%HPD={26.4224, 32.0122}]: 0.975014, ((((((Ar13: 13.906659, Ar6: 13.906659) [&95%HPD={10.3943, 18.2664}]: 6.964666, (Ar15: 18.572586, DUSEL4: 18.572586) [&95%HPD={15.1441, 21.9478}]: 2.298739) [&95%HPD={17.6296, 24.0761}]: 3.511936, Parvarchaeum_acidophilus: 24.383261) [&95%HPD={21.3614, 27.4509}]: 1.408360, Nanoarchaeum: 25.791621) [&95%HPD={22.8151, 28.6872}]: 2.345220, ((Nanosalina: 8.336480, Nanosalinarum: 8.336480) [&95%HPD={4.47228, 12.6033}]: 16.996131, Ar5: 25.332612) [&95%HPD={22.1299, 28.4252}]: 2.804229) [&95%HPD={25.0943, 30.7873}]: 1.522278, (Micrarchaeum_acidiphilum: 25.507543, DUSEL3: 25.507543) [&95%HPD={22.0067, 28.6705}]: 4.151575) [&95%HPD={26.6875, 32.3394}]: 0.669560) [&95%HPD={27.2888, 32.913}]: 14.217538, ((((((((((Chlamydia_trachomatis: 20.772501, (Verrucomicrobium: 17.571830, Lentisphaera: 17.571830) [&95%HPD={14.4457, 20.6817}]: 3.200671) [&95%HPD={18.0725, 23.3498}]: 3.146046, Rhodopirellula_baltica: 23.918546) [&95%HPD={21.7238, 26.1107}]: 2.815614, (((Chlorobium: 18.164944, Caldithrix: 18.164944) [&95%HPD={14.8561, 21.1006}]: 4.621177, (Gemmatimonas: 20.609496, Latescibacteria: 20.609496) [&95%HPD={18.083, 23.1791}]: 2.176625) [&95%HPD={20.492, 24.9735}]: 1.445671, Fibrobacter: 24.231792) [&95%HPD={22.0645, 26.2672}]: 2.502369) [&95%HPD={24.9979, 28.5177}]: 1.174772, ((((Escherichia_coli: 19.331469, (Rickettsia: 13.164078, Rhodopseudomonas_palustris: 13.164078) [&95%HPD={10.2061, 16.3301}]: 6.167391) [&95%HPD={16.8387, 21.9694}]: 2.959340, Campylobacter_jejuni: 22.290810) [&95%HPD={20.0478, 24.5869}]: 1.813822, Desulfurispirillum: 24.104631) [&95%HPD={22.0113, 26.1179}]: 2.038556, (Aquifex: 24.656254, (Acidobacterium: 22.162058, (Thermodesulfatator: 19.592078, Thermodesulfovibrio: 19.592078) [&95%HPD={16.8039, 22.2525}]: 2.569981) [&95%HPD={19.7391, 24.4516}]: 2.494196) [&95%HPD={22.6313, 26.6211}]: 1.486933) [&95%HPD={24.2851, 27.9358}]: 1.765745) [&95%HPD={26.2181, 29.4522}]: 0.990577, Elusimicrobium: 28.899509) [&95%HPD={27.3213, 30.3413}]: 1.349991, (((Chthonomonas: 25.867697, (Oscillochloris: 22.999015, (Microgenomates: 16.977518, Parcubacteria: 16.977518) [&95%HPD={12.5129, 20.8311}]: 6.021497) [&95%HPD={20.0709, 25.7602}]: 2.868682) [&95%HPD={23.5543, 27.8793}]: 1.407950, Actinomadura: 27.275647) [&95%HPD={25.2954, 29.0263}]: 1.505727, (Treponema_pallidum: 25.817650, Clostridium_acetobutylicum: 25.817650) [&95%HPD={23.4043, 28.0842}]: 2.963724) [&95%HPD={27.1412, 30.2765}]: 1.468125) [&95%HPD={28.9817, 31.6013}]: 2.420280, (((Cylindrosperopsis: 5.663990, Chlorogloeopsis: 5.663990) [&95%HPD={3.12196, 8.23574}]: 8.702329, Synechocystis_sp._PCC6803: 14.366319) [&95%HPD={10.9646, 17.9493}]: 3.480025, Gloeobacter: 17.846344) [&95%HPD={14.7022, 21.6374}]: 14.823436) [&95%HPD={32.2601, 33.4763}]: 1.324302, Candidatus: 33.994082) [&95%HPD={33.0811, 35.0758}]: 0.718795, Jonquetella: 34.712877) [&95%HPD={33.6759, 35.9631}]: 0.763297, (Kosmotoga: 34.411607, (Dictyoglomus: 30.115829, Caldisericum: 30.115829) [&95%HPD={27.0219, 32.6718}]: 4.295779) [&95%HPD={32.9063, 36.1125}]: 1.064566) [&95%HPD={34.2231, 36.935}]: 9.070043) [&95%HPD={43.2811, 45.2}];
+
+
+Posterior mean (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n103        44.5397 (42.8753, 45.1812) (43.2811, 45.2000)  1.9189 (Jnode 202)
+t_n104        30.3251 (27.0674, 32.7628) (27.2888, 32.9130)  5.6242 (Jnode 201)
+t_n105        29.3508 (26.1534, 31.8056) (26.4224, 32.0122)  5.5898 (Jnode 200)
+t_n106        26.6901 (23.7156, 29.1720) (23.8802, 29.3196)  5.4394 (Jnode 199)
+t_n107        25.9735 (23.0572, 28.4163) (23.1446, 28.4944)  5.3498 (Jnode 198)
+t_n108        24.6070 (21.8458, 27.0231) (21.9574, 27.1196)  5.1622 (Jnode 197)
+t_n109        12.4413 (11.2155, 14.3180) (11.0961, 14.1436)  3.0475 (Jnode 196)
+t_n110        12.3321 (11.1205, 14.1972) (11.0114, 14.0399)  3.0286 (Jnode 195)
+t_n111        11.9676 (10.8070, 13.7790) (10.7030, 13.6063)  2.9033 (Jnode 194)
+t_n112        11.4847 (10.3793, 13.2098) (10.2312, 13.0149)  2.7837 (Jnode 193)
+t_n113        10.9072 ( 9.8779, 12.5600) ( 9.7210, 12.3257)  2.6047 (Jnode 192)
+t_n114         7.3182 ( 6.4362,  8.5485) ( 6.3562,  8.4134)  2.0572 (Jnode 191)
+t_n115         4.3671 ( 4.2085,  4.8110) ( 4.2040,  4.6912)  0.4872 (Jnode 190)
+t_n116         2.5184 ( 2.3602,  2.7331) ( 2.3480,  2.7180)  0.3700 (Jnode 189)
+t_n117         2.0474 ( 1.3558,  2.9030) ( 1.3240,  2.8578)  1.5339 (Jnode 188)
+t_n118         8.2861 ( 7.1581,  9.7118) ( 7.0868,  9.6079)  2.5212 (Jnode 187)
+t_n119         7.0423 ( 5.9087,  8.3458) ( 5.8163,  8.2445)  2.4282 (Jnode 186)
+t_n120        11.4586 (10.3354, 13.1924) (10.2011, 12.9984)  2.7973 (Jnode 185)
+t_n121         7.1129 ( 5.8094,  8.8324) ( 5.7014,  8.6816)  2.9801 (Jnode 184)
+t_n122        10.9888 ( 9.9040, 12.6559) ( 9.8220, 12.5185)  2.6965 (Jnode 183)
+t_n123         8.7790 ( 7.6719, 10.2413) ( 7.5864, 10.1391)  2.5526 (Jnode 182)
+t_n124         7.1387 ( 5.9992,  8.4619) ( 5.9335,  8.3822)  2.4487 (Jnode 181)
+t_n125         5.9547 ( 4.5327,  7.6472) ( 4.4494,  7.5313)  3.0818 (Jnode 180)
+t_n126        10.6907 ( 9.4917, 12.4202) ( 9.3989, 12.2557)  2.8567 (Jnode 179)
+t_n127        10.0674 ( 8.8785, 11.7253) ( 8.7772, 11.5942)  2.8170 (Jnode 178)
+t_n128         2.7863 ( 1.7347,  4.0729) ( 1.6375,  3.9048)  2.2673 (Jnode 177)
+t_n129        11.8423 (10.6365, 13.6392) (10.5161, 13.4654)  2.9493 (Jnode 176)
+t_n130        10.6956 ( 9.5245, 12.3119) ( 9.3981, 12.1536)  2.7555 (Jnode 175)
+t_n131         8.2995 ( 7.0039,  9.7109) ( 6.9682,  9.6599)  2.6916 (Jnode 174)
+t_n132         6.6492 ( 5.3477,  7.9808) ( 5.3381,  7.9665)  2.6284 (Jnode 173)
+t_n133         7.2884 ( 6.1363,  8.3062) ( 6.2561,  8.3774)  2.1213 (Jnode 172)
+t_n134         6.6387 ( 5.5273,  7.6527) ( 5.5801,  7.6897)  2.1097 (Jnode 171)
+t_n135         5.5381 ( 4.5292,  6.5501) ( 4.5742,  6.5920)  2.0178 (Jnode 170)
+t_n136         5.4654 ( 4.0004,  7.3691) ( 3.9538,  7.3168)  3.3630 (Jnode 169)
+t_n137        22.9958 (20.2732, 25.5037) (20.3638, 25.5751)  5.2113 (Jnode 168)
+t_n138        18.7284 (15.4081, 21.7246) (15.5418, 21.8375)  6.2957 (Jnode 167)
+t_n139        24.8377 (22.0054, 27.2805) (22.0955, 27.3528)  5.2573 (Jnode 166)
+t_n140        22.9459 (20.1540, 25.4654) (20.3303, 25.6012)  5.2709 (Jnode 165)
+t_n141        21.5398 (18.7740, 24.1078) (18.7746, 24.1083)  5.3338 (Jnode 164)
+t_n142        17.9004 (14.6816, 20.7612) (14.7301, 20.7950)  6.0649 (Jnode 163)
+t_n143         9.6391 ( 6.4457, 12.9735) ( 6.3918, 12.9031)  6.5113 (Jnode 162)
+t_n144        17.2238 (13.9213, 20.2287) (14.0282, 20.3101)  6.2819 (Jnode 161)
+t_n145        15.1564 (11.9235, 18.2654) (12.0371, 18.3648)  6.3277 (Jnode 160)
+t_n146        13.4845 (10.4288, 16.5710) (10.3851, 16.5177)  6.1325 (Jnode 159)
+t_n147        11.4280 ( 8.5983, 14.4262) ( 8.3861, 14.1955)  5.8094 (Jnode 158)
+t_n148        20.9181 (18.0496, 23.6324) (18.0830, 23.6479)  5.5650 (Jnode 157)
+t_n149        19.4256 (16.4094, 22.2750) (16.4588, 22.3146)  5.8558 (Jnode 156)
+t_n150         5.3073 ( 2.5520,  8.1546) ( 2.4804,  8.0296)  5.5492 (Jnode 155)
+t_n151         2.3731 ( 1.0456,  4.0668) ( 0.9103,  3.7639)  2.8536 (Jnode 154)
+t_n152        27.6971 (24.5651, 30.2048) (24.6947, 30.2914)  5.5967 (Jnode 153)
+t_n153        25.9993 (22.8489, 28.6635) (23.0451, 28.8236)  5.7785 (Jnode 152)
+t_n154        23.5269 (20.1424, 26.6023) (20.4065, 26.8213)  6.4149 (Jnode 151)
+t_n155        22.8612 (19.4014, 26.0498) (19.5544, 26.1755)  6.6212 (Jnode 150)
+t_n156        24.8524 (21.5455, 27.6194) (21.7003, 27.7426)  6.0424 (Jnode 149)
+t_n157        17.2690 (12.0514, 21.2567) (12.2842, 21.4217)  9.1375 (Jnode 148)
+t_n158        20.8676 (16.9904, 24.1273) (17.3271, 24.3515)  7.0244 (Jnode 147)
+t_n159        16.8401 (12.4408, 20.5477) (12.7894, 20.8511)  8.0617 (Jnode 146)
+t_n160        29.6565 (26.4071, 32.1286) (26.6875, 32.3394)  5.6519 (Jnode 145)
+t_n161        28.1327 (24.9241, 30.6690) (25.0943, 30.7873)  5.6930 (Jnode 144)
+t_n162        25.7887 (22.5759, 28.5192) (22.8151, 28.6872)  5.8721 (Jnode 143)
+t_n163        24.3803 (21.1115, 27.2519) (21.3614, 27.4509)  6.0895 (Jnode 142)
+t_n164        20.8748 (17.6071, 24.0579) (17.6296, 24.0761)  6.4465 (Jnode 141)
+t_n165        13.9025 (10.4409, 18.3332) (10.3943, 18.2664)  7.8721 (Jnode 140)
+t_n166        18.5822 (15.1669, 21.9747) (15.1441, 21.9478)  6.8038 (Jnode 139)
+t_n167        25.3270 (21.9466, 28.2653) (22.1299, 28.4252)  6.2953 (Jnode 138)
+t_n168         8.3282 ( 4.6695, 12.8746) ( 4.4723, 12.6033)  8.1310 (Jnode 137)
+t_n169        25.5082 (21.8529, 28.5724) (22.0067, 28.6705)  6.6638 (Jnode 136)
+t_n170        35.4771 (34.3273, 37.1068) (34.2231, 36.9350)  2.7118 (Jnode 135)
+t_n171        34.7127 (33.7711, 36.1529) (33.6759, 35.9631)  2.2872 (Jnode 134)
+t_n172        33.9936 (33.1982, 35.3088) (33.0811, 35.0758)  1.9948 (Jnode 133)
+t_n173        32.6697 (32.2707, 33.7542) (32.2601, 33.4763)  1.2162 (Jnode 132)
+t_n174        30.2501 (28.9113, 31.5363) (28.9817, 31.6013)  2.6196 (Jnode 131)
+t_n175        28.9010 (27.2832, 30.3197) (27.3213, 30.3413)  3.0200 (Jnode 130)
+t_n176        27.9073 (26.1656, 29.4139) (26.2181, 29.4522)  3.2341 (Jnode 129)
+t_n177        26.7330 (24.8349, 28.3743) (24.9979, 28.5177)  3.5198 (Jnode 128)
+t_n178        23.9194 (21.5488, 25.9627) (21.7238, 26.1107)  4.3869 (Jnode 127)
+t_n179        20.7786 (17.9278, 23.2163) (18.0725, 23.3498)  5.2773 (Jnode 126)
+t_n180        17.5732 (14.1648, 20.4491) (14.4457, 20.6817)  6.2360 (Jnode 125)
+t_n181        24.2259 (21.9685, 26.1830) (22.0645, 26.2672)  4.2027 (Jnode 124)
+t_n182        22.7803 (20.3908, 24.8917) (20.4920, 24.9735)  4.4815 (Jnode 123)
+t_n183        18.1596 (14.7127, 21.0093) (14.8561, 21.1006)  6.2445 (Jnode 122)
+t_n184        20.6084 (17.9184, 23.0454) (18.0830, 23.1791)  5.0961 (Jnode 121)
+t_n185        26.1432 (24.1827, 27.8550) (24.2851, 27.9358)  3.6507 (Jnode 120)
+t_n186        24.1037 (21.9372, 26.0723) (22.0113, 26.1179)  4.1066 (Jnode 119)
+t_n187        22.2895 (19.9443, 24.4996) (20.0478, 24.5869)  4.5392 (Jnode 118)
+t_n188        19.3319 (16.8083, 21.9485) (16.8387, 21.9694)  5.1306 (Jnode 117)
+t_n189        13.1641 (10.5013, 16.7064) (10.2061, 16.3301)  6.1240 (Jnode 116)
+t_n190        24.6553 (22.5175, 26.5497) (22.6313, 26.6211)  3.9898 (Jnode 115)
+t_n191        22.1627 (19.6871, 24.4135) (19.7391, 24.4516)  4.7125 (Jnode 114)
+t_n192        19.5930 (16.7851, 22.2437) (16.8039, 22.2525)  5.4487 (Jnode 113)
+t_n193        28.7848 (27.1098, 30.2503) (27.1412, 30.2765)  3.1353 (Jnode 112)
+t_n194        27.2797 (25.2160, 28.9706) (25.2954, 29.0263)  3.7309 (Jnode 111)
+t_n195        25.8744 (23.4673, 27.8222) (23.5543, 27.8793)  4.3250 (Jnode 110)
+t_n196        22.9994 (19.7286, 25.5364) (20.0709, 25.7602)  5.6893 (Jnode 109)
+t_n197        16.9836 (12.2679, 20.6181) (12.5129, 20.8311)  8.3182 (Jnode 108)
+t_n198        25.8191 (23.1464, 27.8957) (23.4043, 28.0842)  4.6799 (Jnode 107)
+t_n199        17.8486 (14.0641, 21.1882) (14.7022, 21.6374)  6.9352 (Jnode 106)
+t_n200        14.3701 (10.8951, 17.8976) (10.9646, 17.9493)  6.9847 (Jnode 105)
+t_n201         5.6666 ( 3.2197,  8.3686) ( 3.1220,  8.2357)  5.1138 (Jnode 104)
+t_n202        34.4125 (32.9145, 36.1268) (32.9063, 36.1125)  3.2062 (Jnode 103)
+t_n203        30.1238 (26.6659, 32.4747) (27.0219, 32.6718)  5.6499 (Jnode 102)
+mu             0.1549 ( 0.0840,  0.2563) ( 0.0749,  0.2414)  0.1666
+sigma2         0.0187 ( 0.0135,  0.0255) ( 0.0132,  0.0250)  0.0118
+lnL         -103.8645 (-124.8880, -84.5330) (-123.9740, -83.6740) 40.3000
